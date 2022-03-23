@@ -16,7 +16,7 @@
   font-size: 10px;
   --text-white: #fff;
   --text-c0: #6754c0;
-  --text-d4: #735ED4;
+  --text-d4: #735ed4;
   --text-black: #000;
   --family1: "Montserrat", sans-serif;
   --family2: "Poppins", sans-serif;
@@ -24,6 +24,30 @@
 
 body {
   font-size: 16px;
+}
+
+h1 {
+  font-size: 7.2rem;
+  font-weight: bold;
+  line-height: 6.6rem;
+  letter-spacing: -1.5%;
+  color: var(--text-white);
+  font-family: var(--family1);
+}
+
+h1.mb_head {
+  margin-bottom: 4.2rem;
+}
+
+h5 {
+  font-size: 2rem;
+  font-weight: normal;
+  line-height: 3rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+h5.mb_head {
+  margin-bottom: 4.2rem;
 }
 
 .section_container {
@@ -75,5 +99,30 @@ body {
   font-size: 1.4rem;
   font-family: var(--family2);
   font-weight: 600;
+}
+
+.btn_explore_outline {
+  background: transparent;
+  color: var(--text-white) !important;
+  border-radius: 0.3rem;
+  border: 1px solid var(--text-white);
+  width: 13.2rem;
+  height: 5rem;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.4rem;
+  font-family: var(--family2);
+  font-weight: 600;
+}
+
+.btn_explore_outline.mr_15 {
+  margin-right: 1.5rem;
 }
 /*# sourceMappingURL=App.css.map */

@@ -2,4 +2,12 @@
   min-height: 108rem;
   background: url("../../Static/img/section_1_img.png") center/cover no-repeat fixed;
 }
+
+#DebustLanding #Section1 {
+  padding-top: 35.6rem;
+}
+
+#DebustLanding #Section1 .flex_wrapper .box1 {
+  width: 90rem;
+}
 /*# sourceMappingURL=DebustLanding.css.map */
