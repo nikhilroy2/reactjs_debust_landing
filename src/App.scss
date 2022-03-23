@@ -9,4 +9,45 @@
 .family_poppins {
   font-family: "Poppins", sans-serif;
 }
+:root {
+  font-size: 10px;
+  --text-white: #fff;
+  --text-c0: #6754c0;
+}
+body {
+  font-size: 16px;
+}
 // .............................Global Settings Style..............End
+
+// .....................Section classes ...................
+.section_container {
+  max-width: 1389px;
+  margin-left: auto;
+  margin-right: auto;
+}
+// .....................Section classes ...................End
+
+// ..................... Button classes ....................
+.btn_log {
+  width: 14.4rem;
+  height: 5.5rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--text-white);
+  color: var(--text-c0) !important;
+  border-radius: 0.3rem;
+}
+.btn_creator {
+  background: radial-gradient(
+    126.82% 126.82% at 63.54% 32.27%,
+    #ff0d6a 0%,
+    #5335db 100%
+  );
+  color: var(--text-white)!important;
+  border-radius: .3rem;
+  border: 1px solid var(--text-white);
+  width: 13.2rem;
+  height: 5rem;
+}
+// ..................... Button classes ....................End
