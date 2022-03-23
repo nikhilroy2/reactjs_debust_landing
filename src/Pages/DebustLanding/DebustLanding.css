@@ -1,1 +1,5 @@
-/* No CSS *//*# sourceMappingURL=DebustLanding.css.map */
+#DebustLanding {
+  min-height: 108rem;
+  background: url("../../Static/img/section_1_img.png") center/cover no-repeat fixed;
+}
+/*# sourceMappingURL=DebustLanding.css.map */

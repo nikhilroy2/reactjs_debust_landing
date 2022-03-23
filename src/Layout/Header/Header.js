@@ -1,10 +1,10 @@
 import React from "react";
-
+import "./Header.css";
 function Header(props) {
   return (
     <header id="Header">
       <div className="section_container">
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar shadow-0 navbar-expand-lg navbar-light bg-light">
           <div className="container-fluid">
             <button
               className="navbar-toggler"
@@ -18,16 +18,15 @@ function Header(props) {
               <i className="fas fa-bars" />
             </button>
             <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-              <a className="navbar-brand" href="#">
+              <a className="navbar-brand brand_mr" href="#">
                 <img src={require("../../Static/img/logo.png")} alt="logo" />
               </a>
-              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <ul className="navbar-nav navbar-nav1 me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
                   <a className="nav-link" href="#">
                     Marketplace
                   </a>
                 </li>
-
                 <li className="nav-item">
                   <a className="nav-link" href="#">
                     Stats
@@ -46,9 +45,30 @@ function Header(props) {
                 </li>
               </ul>
               <div className="d-flex">
-                <ul className="navbar-nav">
+                <ul className="navbar-nav align-items-center">
                   <li className="nav-item">
-                    <a href="#" className="nav-link btn_log">
+                    <form action="" className="search_header_form">
+                      <div className="input-group rounded position-relative">
+                        <span
+                          className="input-group-text border-0 position-absolute"
+                          id="search-addon"
+                        >
+                          <i className="fas fa-search" />
+                        </span>
+
+                        <input
+                          type="search"
+                          className="form-control rounded"
+                          placeholder="Search NFT Projects & Collections"
+                          aria-label="Search"
+                          aria-describedby="search-addon"
+                        />
+                      </div>
+                    </form>
+                  </li>
+
+                  <li className="nav-item">
+                    <a href="#" className="nav-link btn_log mr_15">
                       Log In
                     </a>
                   </li>

@@ -1,10 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Base from "./Layout/Base/Base";
+import DebustLanding from "./Pages/DebustLanding/DebustLanding";
 function App() {
   return (
     <div className="App">
-      <Base>I am children</Base>
+      <Base>
+        <DebustLanding></DebustLanding>
+      </Base>
     </div>
   );
 }
