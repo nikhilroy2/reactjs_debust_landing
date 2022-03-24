@@ -31,7 +31,6 @@
     padding-top: 6.6rem;
   }
   #Section4 {
-    min-height: 108rem;
     background: url("../../Static/img/section_bg4.png") center/cover no-repeat;
     padding-top: 6.6rem;
     .card_section_body {
@@ -42,6 +41,9 @@
         rgba(31, 18, 87, 0.4225) 86.24%
       );
       border-radius: 1.2rem;
+    }
+    .hiw_section{
+      padding-top: 15.9rem;
     }
   }
 }

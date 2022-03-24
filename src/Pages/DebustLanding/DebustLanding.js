@@ -544,6 +544,15 @@ const Section4 = () => {
           </div>
         </div>
       </div>
+
+      <div className="section_container hiw_section">
+        <div className="section_title mb-0 text-center">
+          <h3 className="title">How it works ?</h3>
+          <strong className="subtitle">
+            Learn how our system & process works
+          </strong>
+        </div>
+      </div>
     </section>
   );
 };
