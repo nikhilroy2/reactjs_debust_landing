@@ -1,0 +1,68 @@
+#CustomerReviewCard {
+  padding-top: 2.2rem;
+  padding-right: 2.4rem;
+  padding-bottom: 2.7rem;
+  padding-left: 2.2rem;
+  margin-bottom: 3rem;
+  border-image-source: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+  border: 1px solid;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(65, 43, 159, 0.65)), to(rgba(31, 18, 87, 0.442)));
+  background: linear-gradient(180deg, rgba(65, 43, 159, 0.65) 0%, rgba(31, 18, 87, 0.442) 100%);
+  -webkit-backdrop-filter: blur(25px);
+          backdrop-filter: blur(25px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 1.2rem;
+}
+
+#CustomerReviewCard .img_box {
+  min-width: 6.1rem;
+  height: 6.1rem;
+  margin-right: 1.5rem;
+}
+
+#CustomerReviewCard .img_box img {
+  width: 100%;
+  height: 100%;
+}
+
+#CustomerReviewCard .rating_wrapper {
+  padding-top: 0.7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#CustomerReviewCard .rating_wrapper li {
+  width: 2.5rem;
+  height: 2.5rem;
+  background: var(--text-7f);
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#CustomerReviewCard .rating_wrapper li i {
+  font-size: 1.2rem;
+}
+
+#CustomerReviewCard .box_title {
+  font-size: 1.4rem;
+}
+
+#CustomerReviewCard .review_card_body {
+  font-size: 1.4rem;
+  margin-top: 1.9rem;
+}
+/*# sourceMappingURL=CustomerReviewCard.css.map */
