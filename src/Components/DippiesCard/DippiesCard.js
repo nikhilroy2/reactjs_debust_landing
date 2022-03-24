@@ -42,10 +42,203 @@ function DippiesCard(props) {
             </svg>
           </div>
           <p className="card-text">
-            Funk, meet web 3. A collection of <br /> 8,888 unique digital hippies that
-            are building the <br /> new free world of dream
+            Funk, meet web 3. A collection of <br /> 8,888 unique digital
+            hippies that are building the <br /> new free world of dream
           </p>
-          
+        </div>
+      </div>
+      <div className="card_overlay_box">
+        <ul className="list-unstyled d-flex overlay_list">
+          <li>
+            <img src={require("../../Static/img/card_icon.png")} alt="img" />
+          </li>
+          <li>
+            <img
+              src={require("../../Static/img/overlay_icon1.png")}
+              alt="overlay_icon1"
+            />
+            <span className="d-flex align-items-center justify-content-center text-center text-white family_poppins mt-2">
+              5
+              <svg
+                width={18}
+                height={18}
+                viewBox="0 0 18 18"
+                fill="none"
+                className="ms-1"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9 12.9525L13.635 15.75L12.405 10.4775L16.5 6.93L11.1075 6.4725L9 1.5L6.8925 6.4725L1.5 6.93L5.595 10.4775L4.365 15.75L9 12.9525Z"
+                  fill="url(#paint0_angular_1_3493)"
+                />
+                <defs>
+                  <radialGradient
+                    id="paint0_angular_1_3493"
+                    cx={0}
+                    cy={0}
+                    r={1}
+                    gradientUnits="userSpaceOnUse"
+                    gradientTransform="translate(9 8.625) rotate(90) scale(7.125 7.5)"
+                  >
+                    <stop stopColor="#FFB017" />
+                    <stop offset={1} stopColor="#FF8642" />
+                  </radialGradient>
+                </defs>
+              </svg>
+            </span>
+          </li>
+          <li>
+            <img
+              src={require("../../Static/img/overlay_icon2.png")}
+              alt="overlay_icon2"
+            />
+            <span className="d-flex align-items-center justify-content-center text-center text-white family_poppins mt-2">
+              4
+              <svg
+                width={18}
+                height={18}
+                viewBox="0 0 18 18"
+                fill="none"
+                className="ms-1"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9 12.9525L13.635 15.75L12.405 10.4775L16.5 6.93L11.1075 6.4725L9 1.5L6.8925 6.4725L1.5 6.93L5.595 10.4775L4.365 15.75L9 12.9525Z"
+                  fill="url(#paint0_angular_1_3493)"
+                />
+                <defs>
+                  <radialGradient
+                    id="paint0_angular_1_3493"
+                    cx={0}
+                    cy={0}
+                    r={1}
+                    gradientUnits="userSpaceOnUse"
+                    gradientTransform="translate(9 8.625) rotate(90) scale(7.125 7.5)"
+                  >
+                    <stop stopColor="#FFB017" />
+                    <stop offset={1} stopColor="#FF8642" />
+                  </radialGradient>
+                </defs>
+              </svg>
+            </span>
+          </li>
+          <li>
+            <img
+              src={require("../../Static/img/overlay_icon3.png")}
+              alt="overlay_icon3"
+            />
+
+            <span className="d-flex align-items-center justify-content-center text-center text-white family_poppins mt-2">
+              3
+              <svg
+                width={18}
+                height={18}
+                viewBox="0 0 18 18"
+                fill="none"
+                className="ms-1"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9 12.9525L13.635 15.75L12.405 10.4775L16.5 6.93L11.1075 6.4725L9 1.5L6.8925 6.4725L1.5 6.93L5.595 10.4775L4.365 15.75L9 12.9525Z"
+                  fill="url(#paint0_angular_1_3493)"
+                />
+                <defs>
+                  <radialGradient
+                    id="paint0_angular_1_3493"
+                    cx={0}
+                    cy={0}
+                    r={1}
+                    gradientUnits="userSpaceOnUse"
+                    gradientTransform="translate(9 8.625) rotate(90) scale(7.125 7.5)"
+                  >
+                    <stop stopColor="#FFB017" />
+                    <stop offset={1} stopColor="#FF8642" />
+                  </radialGradient>
+                </defs>
+              </svg>
+            </span>
+          </li>
+          <li>
+            <img
+              src={require("../../Static/img/overlay_icon4.png")}
+              alt="overlay_icon4"
+            />
+
+            <span className="d-flex align-items-center justify-content-center text-center text-white family_poppins mt-2">
+              2
+              <svg
+                width={18}
+                height={18}
+                viewBox="0 0 18 18"
+                fill="none"
+                className="ms-1"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9 12.9525L13.635 15.75L12.405 10.4775L16.5 6.93L11.1075 6.4725L9 1.5L6.8925 6.4725L1.5 6.93L5.595 10.4775L4.365 15.75L9 12.9525Z"
+                  fill="url(#paint0_angular_1_3493)"
+                />
+                <defs>
+                  <radialGradient
+                    id="paint0_angular_1_3493"
+                    cx={0}
+                    cy={0}
+                    r={1}
+                    gradientUnits="userSpaceOnUse"
+                    gradientTransform="translate(9 8.625) rotate(90) scale(7.125 7.5)"
+                  >
+                    <stop stopColor="#FFB017" />
+                    <stop offset={1} stopColor="#FF8642" />
+                  </radialGradient>
+                </defs>
+              </svg>
+            </span>
+          </li>
+          <li>
+            <img
+              src={require("../../Static/img/overlay_icon5.png")}
+              alt="overlay_icon5"
+            />
+
+            <span className="d-flex align-items-center justify-content-center text-center text-white family_poppins mt-2">
+              1
+              <svg
+                width={18}
+                height={18}
+                viewBox="0 0 18 18"
+                fill="none"
+                className="ms-1"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9 12.9525L13.635 15.75L12.405 10.4775L16.5 6.93L11.1075 6.4725L9 1.5L6.8925 6.4725L1.5 6.93L5.595 10.4775L4.365 15.75L9 12.9525Z"
+                  fill="url(#paint0_angular_1_3493)"
+                />
+                <defs>
+                  <radialGradient
+                    id="paint0_angular_1_3493"
+                    cx={0}
+                    cy={0}
+                    r={1}
+                    gradientUnits="userSpaceOnUse"
+                    gradientTransform="translate(9 8.625) rotate(90) scale(7.125 7.5)"
+                  >
+                    <stop stopColor="#FFB017" />
+                    <stop offset={1} stopColor="#FF8642" />
+                  </radialGradient>
+                </defs>
+              </svg>
+            </span>
+          </li>
+        </ul>
+
+        <div className="card_footer_overlay">
+          <strong>Fransisco Totti Reviewd Snug</strong>
+
+          <p>
+            "Great customer service , fast reply & quickly solved my problems.
+            Pleased with their activities"
+          </p>
         </div>
       </div>
     </div>
