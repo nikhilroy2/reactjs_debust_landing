@@ -279,7 +279,7 @@ const Section3 = () => {
       </div>
       <div className="section_container lg_container">
         <div className="section_body">
-          <div className="row gy-3 gx-5">
+          <div className="row gy-3 gx-5 justify-content-center">
             <div className="col-md-6 col-lg-4 col-xl-3">
               <div className="col_wrapper">
                 {review_object1.map((v) => {
