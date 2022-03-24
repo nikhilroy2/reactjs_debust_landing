@@ -15,7 +15,7 @@
 }
 
 #Header nav {
-  background: transparent;
+  background: transparent !important;
 }
 
 #Header .navbar-nav1 .nav-item:not(:last-child) {

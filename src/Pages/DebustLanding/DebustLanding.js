@@ -1,5 +1,6 @@
 import React from "react";
 import "./DebustLanding.css";
+import DippiesCard from "../../Components/DippiesCard/DippiesCard";
 function DebustLanding(props) {
   return (
     <div id="DebustLanding">
@@ -14,9 +15,10 @@ function DebustLanding(props) {
                 authentic decentralized recommendations.
               </h5>
             </div>
-            <div className="box"></div>
+            <div className="box ms-auto">
+              <DippiesCard></DippiesCard>
+            </div>
           </div>
-
           <div className="btn_wrapper d-flex flex-wrap">
             <a href="#" className="btn_explore_outline mr_15">
               Explore Now
