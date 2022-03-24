@@ -1,0 +1,49 @@
+#NftProjectCard .card_body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#NftProjectCard .card_body .card_lg_img {
+  width: 29.761rem;
+  height: 30.48rem;
+}
+
+#NftProjectCard .card_body .card_img_slicer_wrapper {
+  margin-left: 1.06rem;
+}
+
+#NftProjectCard .card_body .card_img_slicer_wrapper li {
+  margin-bottom: 0.924rem;
+}
+
+#NftProjectCard .card_body .card_img_slicer_wrapper li img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+#NftProjectCard .card_footer {
+  margin-top: 3.284rem;
+}
+
+#NftProjectCard .card_footer h6 {
+  font-size: 2rem;
+}
+
+#NftProjectCard .card_footer .user_box {
+  font-size: 1.4rem;
+}
+
+#NftProjectCard .card_footer .outline_btn {
+  font-size: 1.1rem;
+  background: transparent;
+  outline: none;
+  border: 1px solid var(--text-white);
+  padding: .89rem 1.727rem;
+  color: var(--text-white);
+}
+/*# sourceMappingURL=NftProjectCard.css.map */

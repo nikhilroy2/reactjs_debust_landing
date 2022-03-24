@@ -26,4 +26,16 @@
   background: url("../../Static/img/section_bg3.png") center/cover no-repeat;
   padding-top: 6.6rem;
 }
+
+#DebustLanding #Section4 {
+  min-height: 108rem;
+  background: url("../../Static/img/section_bg4.png") center/cover no-repeat;
+  padding-top: 6.6rem;
+}
+
+#DebustLanding #Section4 .card_section_body {
+  padding: 5.5rem 4.5rem;
+  background: linear-gradient(108.88deg, rgba(122, 106, 190, 0.65) 41.79%, rgba(31, 18, 87, 0.4225) 86.24%);
+  border-radius: 1.2rem;
+}
 /*# sourceMappingURL=DebustLanding.css.map */

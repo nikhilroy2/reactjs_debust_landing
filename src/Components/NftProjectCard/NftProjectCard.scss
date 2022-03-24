@@ -1,0 +1,40 @@
+#NftProjectCard {
+  .card_body {
+    display: flex;
+    justify-content: space-between;
+    .card_lg_img {
+      width: 29.761rem;
+      height: 30.48rem;
+    }
+    .card_img_slicer_wrapper {
+        margin-left: 1.06rem;
+      li {
+        margin-bottom: 0.924rem;
+        img {
+          width: 100%;
+          height: 100%;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .card_footer{
+      margin-top: 3.284rem;
+      h6{
+          font-size: 2rem;
+
+      }
+      .user_box{
+          font-size: 1.4rem;
+      }
+      .outline_btn{
+          font-size: 1.1rem;
+          background: transparent;
+          outline: none;
+          border: 1px solid var(--text-white);
+          padding:  .89rem 1.727rem;
+          color: var(--text-white);
+      }
+
+  }
+}

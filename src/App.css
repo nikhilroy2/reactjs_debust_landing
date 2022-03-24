@@ -81,6 +81,11 @@ h5.mb_head {
   font-weight: normal;
 }
 
+.section_title .view_all {
+  font-size: 2.4rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
 .btn_log {
   width: 14.4rem;
   height: 5.5rem;

@@ -2,12 +2,15 @@ import React from "react";
 import "./DebustLanding.css";
 import DippiesCard from "../../Components/DippiesCard/DippiesCard";
 import CustomerReviewCard from "../../Components/CustomerReviewCard/CustomerReviewCard";
+import NftProjectCard from "../../Components/NftProjectCard/NftProjectCard";
+
 function DebustLanding(props) {
   return (
     <div id="DebustLanding">
       <Section1></Section1>
       <Section2></Section2>
       <Section3></Section3>
+      <Section4></Section4>
     </div>
   );
 }
@@ -354,6 +357,190 @@ const Section3 = () => {
                 })}
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+const Section4 = () => {
+  const card_object = [
+    {
+      id: 1,
+      card_lg_img: require("../../Static/img/nft_project_img1.png"),
+      card_img_slice_list: [
+        {
+          id: 1,
+          list_img: require("../../Static/img/nft_project_img2.png"),
+        },
+        {
+          id: 2,
+          list_img: require("../../Static/img/nft_project_img3.png"),
+        },
+        {
+          id: 3,
+          list_img: require("../../Static/img/nft_project_img4.png"),
+        },
+      ],
+      card_name: "Art Collection",
+      user_img: require("../../Static/img/user1.png"),
+      btn_content: "Total 54 Items",
+      user_name: "by Arkhan",
+    },
+    {
+      id: 2,
+      card_lg_img: require("../../Static/img/nft_project_img5.png"),
+      card_img_slice_list: [
+        {
+          id: 1,
+          list_img: require("../../Static/img/nft_project_img6.png"),
+        },
+        {
+          id: 2,
+          list_img: require("../../Static/img/nft_project_img7.png"),
+        },
+        {
+          id: 3,
+          list_img: require("../../Static/img/nft_project_img8.png"),
+        },
+      ],
+      card_name: "Photography Collection",
+      user_img: require("../../Static/img/user2.png"),
+      btn_content: "Total 54 Items",
+      user_name: "by Arkhan",
+    },
+    {
+      id: 3,
+      card_lg_img: require("../../Static/img/nft_project_img5.png"),
+      card_img_slice_list: [
+        {
+          id: 1,
+          list_img: require("../../Static/img/nft_project_img6.png"),
+        },
+        {
+          id: 2,
+          list_img: require("../../Static/img/nft_project_img7.png"),
+        },
+        {
+          id: 3,
+          list_img: require("../../Static/img/nft_project_img8.png"),
+        },
+      ],
+      card_name: "Photography Collection",
+      user_img: require("../../Static/img/user2.png"),
+      btn_content: "Total 54 Items",
+      user_name: "by Arkhan",
+    },
+
+    {
+      id: 4,
+      card_lg_img: require("../../Static/img/nft_project_img1.png"),
+      card_img_slice_list: [
+        {
+          id: 1,
+          list_img: require("../../Static/img/nft_project_img2.png"),
+        },
+        {
+          id: 2,
+          list_img: require("../../Static/img/nft_project_img3.png"),
+        },
+        {
+          id: 3,
+          list_img: require("../../Static/img/nft_project_img4.png"),
+        },
+      ],
+      card_name: "Art Collection",
+      user_img: require("../../Static/img/user1.png"),
+      btn_content: "Total 54 Items",
+      user_name: "by Arkhan",
+    },
+
+    {
+      id: 5,
+      card_lg_img: require("../../Static/img/nft_project_img5.png"),
+      card_img_slice_list: [
+        {
+          id: 1,
+          list_img: require("../../Static/img/nft_project_img6.png"),
+        },
+        {
+          id: 2,
+          list_img: require("../../Static/img/nft_project_img7.png"),
+        },
+        {
+          id: 3,
+          list_img: require("../../Static/img/nft_project_img8.png"),
+        },
+      ],
+      card_name: "Photography Collection",
+      user_img: require("../../Static/img/user2.png"),
+      btn_content: "Total 54 Items",
+      user_name: "by Arkhan",
+    },
+
+    {
+      id: 6,
+      card_lg_img: require("../../Static/img/nft_project_img5.png"),
+      card_img_slice_list: [
+        {
+          id: 1,
+          list_img: require("../../Static/img/nft_project_img6.png"),
+        },
+        {
+          id: 2,
+          list_img: require("../../Static/img/nft_project_img7.png"),
+        },
+        {
+          id: 3,
+          list_img: require("../../Static/img/nft_project_img8.png"),
+        },
+      ],
+      card_name: "Photography Collection",
+      user_img: require("../../Static/img/user2.png"),
+      btn_content: "Total 54 Items",
+      user_name: "by Arkhan",
+    },
+  ];
+  return (
+    <section id="Section4">
+      <div className="section_container">
+        <div className="section_title">
+          <div className="d-flex justify-content-between align-items-center">
+            <div className="box">
+              <h3 className="title">Browse By Category</h3>
+              <strong className="subtitle">
+                Explore exclusive collections of NFT projects & Artworks
+              </strong>
+            </div>
+            <div className="box">
+              <a href="#" className="view_all">
+                View All
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="section_container lg_container">
+        <div className="section_body card_section_body">
+          <div className="row g-5">
+            {card_object.map((v) => {
+              return (
+                <div key={v.id} className="col-md-6 col-lg-4">
+                  <div className="col_wrapper">
+                    <NftProjectCard
+                      card_lg_img={v.card_lg_img}
+                      card_img_slice_list={v.card_img_slice_list}
+                      card_name={v.card_name}
+                      user_img={v.user_img}
+                      btn_content={v.btn_content}
+                      user_name={v.user_name}
+                    ></NftProjectCard>
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </div>
       </div>
