@@ -1,13 +1,25 @@
 #DebustLanding {
-  min-height: 108rem;
-  background: url("../../Static/img/section_1_img.png") center/cover no-repeat
-    fixed;
   #Section1 {
-      padding-top: 35.6rem;
+    padding-top: 35.6rem;
+    min-height: 108rem;
+    background: url("../../Static/img/section_1_img.png") center/cover no-repeat
+      fixed;
     .flex_wrapper {
       .box1 {
-         width: 85.4rem;
+        width: 85.4rem;
       }
     }
+  }
+  #Section2 {
+    min-height: 108rem;
+    background: url("../../Static/img/section_bg2.png") center/cover no-repeat
+      ;
+      padding-top: 8.3rem;
+      padding-bottom: 22.1rem;
+      .section_body_card_wrapper{
+        background: linear-gradient(108.88deg, rgba(122, 106, 190, 0.65) 41.79%, rgba(31, 18, 87, 0.4225) 86.24%);
+        padding: 2.3rem 2.2rem 2.4rem 2.1rem;
+        border-radius: 1.2rem;
+      }
   }
 }

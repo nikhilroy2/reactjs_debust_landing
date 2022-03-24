@@ -88,6 +88,10 @@
   margin-right: 1.6rem;
 }
 
+#DippiesCard .card_overlay_box .overlay_list li:not(:first-child):last-child {
+  margin-right: 0px;
+}
+
 #DippiesCard .card_overlay_box .overlay_list li:not(:first-child) img {
   width: 4.2rem;
   height: 5rem;
@@ -104,5 +108,20 @@
 
 #DippiesCard .card_overlay_box .overlay_list .card_footer_overlay p {
   font-size: 1.4rem;
+}
+
+#DippiesCard .card_footer_symbol li {
+  margin-right: 1.6rem;
+}
+
+#DippiesCard .card_footer_symbol li img {
+  width: 4.2rem;
+  height: 5rem;
+  -o-object-position: center top;
+     object-position: center top;
+}
+
+#DippiesCard .card_footer_symbol li:last-child {
+  margin-right: 0px;
 }
 /*# sourceMappingURL=DippiesCard.css.map */

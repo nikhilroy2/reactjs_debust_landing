@@ -78,6 +78,9 @@
       }
       li:not(:first-child) {
         margin-right: 1.6rem;
+        &:last-child{
+          margin-right: 0px;
+        }
         img {
           width: 4.2rem;
           height: 5rem;
@@ -92,6 +95,19 @@
         p {
           font-size: 1.4rem;
         }
+      }
+    }
+  }
+  .card_footer_symbol {
+    li {
+      margin-right: 1.6rem;
+      img {
+        width: 4.2rem;
+        height: 5rem;
+        object-position: center top;
+      }
+      &:last-child{
+        margin-right: 0px;
       }
     }
   }

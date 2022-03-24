@@ -39,6 +39,9 @@ h1 {
     margin-bottom: 4.2rem;
   }
 }
+h3{
+  font-size: 4rem;
+}
 
 h5 {
   font-size: 2rem;
@@ -56,6 +59,20 @@ h5 {
   max-width: 1389px;
   margin-left: auto;
   margin-right: auto;
+  &.lg_container{
+    max-width: 1430px;
+  }
+}
+.section_title{
+  margin-bottom: 8.3rem;
+  .title{
+    font-weight: bold;
+  }
+  .subtitle{
+    font-size: 2.4rem;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: normal;
+  }
 }
 // .....................Section classes ...................End
 
