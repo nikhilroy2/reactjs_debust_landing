@@ -6,6 +6,7 @@ function DebustLanding(props) {
     <div id="DebustLanding">
       <Section1></Section1>
       <Section2></Section2>
+      <Section3></Section3>
     </div>
   );
 }
@@ -82,6 +83,21 @@ const Section2 = () => {
               })}
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+const Section3 = () => {
+  return (
+    <section id="Section3">
+      <div className="section_container">
+        <div className="section_title">
+          <h3 className="title">Explore NFT Projects</h3>
+          <strong className="subtitle">
+            Spot Trends, Measure & Track BUSTED Ratings
+          </strong>
         </div>
       </div>
     </section>
