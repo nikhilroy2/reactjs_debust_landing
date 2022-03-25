@@ -3,7 +3,7 @@ import "./DebustLanding.css";
 import DippiesCard from "../../Components/DippiesCard/DippiesCard";
 import CustomerReviewCard from "../../Components/CustomerReviewCard/CustomerReviewCard";
 import NftProjectCard from "../../Components/NftProjectCard/NftProjectCard";
-
+import HowItWorkCard from "../../Components/HowItWorkCard/HowItWorkCard";
 function DebustLanding(props) {
   return (
     <div id="DebustLanding">
@@ -551,6 +551,38 @@ const Section4 = () => {
           <strong className="subtitle">
             Learn how our system & process works
           </strong>
+        </div>
+      </div>
+      <div className="section_container lg_container">
+        <div className="section_body">
+          <div className="row">
+            <div className="col">
+              <HowItWorkCard
+                leftIcon={true}
+                cardClass="firstCard"
+                cardLogo={require("../../Static/img/Wallet.png")}
+                cardName="Connect Wallet"
+                cardDescription="Connect your wallet to get started"
+              ></HowItWorkCard>
+            </div>
+            <div className="col">
+              <HowItWorkCard
+                leftIcon={true}
+                cardClass="secondCard"
+                cardLogo={require("../../Static/img/Review.png")}
+                cardName="Publish Review"
+                cardDescription="Then publish your review of the service"
+              ></HowItWorkCard>
+            </div>
+            <div className="col">
+              <HowItWorkCard
+                cardClass="thirdClass"
+                cardLogo={require("../../Static/img/Earn_Rewards.png")}
+                cardName="Earn Rewards"
+                cardDescription="Finally Earn your reward after completion"
+              ></HowItWorkCard>
+            </div>
+          </div>
         </div>
       </div>
     </section>
