@@ -15,15 +15,15 @@
   --text-c0: #6754c0;
   --text-d4: #735ed4;
   --text-black: #000;
-  --text-2f: #00B2FF;
-  --text-7f: #3B2B7F;
+  --text-2f: #00b2ff;
+  --text-7f: #3b2b7f;
   --text-fa8: rgba(255, 255, 255, 0.8);
 
   // family variable
   --family1: "Montserrat", sans-serif;
   --family2: "Poppins", sans-serif;
 }
-.text_fa8{
+.text_fa8 {
   color: var(--text-fa8);
 }
 body {
@@ -44,10 +44,10 @@ h1 {
     margin-bottom: 4.2rem;
   }
 }
-h3{
+h3 {
   font-size: 4rem;
 }
-h4{
+h4 {
   font-size: 2.4rem;
   color: var(--text-white);
 }
@@ -67,21 +67,21 @@ h5 {
   max-width: 1389px;
   margin-left: auto;
   margin-right: auto;
-  &.lg_container{
+  &.lg_container {
     max-width: 1430px;
   }
 }
-.section_title{
+.section_title {
   margin-bottom: 8.3rem;
-  .title{
+  .title {
     font-weight: bold;
   }
-  .subtitle{
+  .subtitle {
     font-size: 2.4rem;
     color: rgba(255, 255, 255, 0.8);
     font-weight: normal;
   }
-  .view_all{
+  .view_all {
     font-size: 2.4rem;
     color: rgba(255, 255, 255, 0.8);
   }
@@ -101,6 +101,10 @@ h5 {
   font-size: 1.4rem;
   font-family: var(--family2);
   font-weight: 600;
+  @media (max-width: 1199px) {
+    width: 10rem;
+    height: 4.5rem;
+  }
   &.mr_15 {
     margin-right: 1.5rem;
   }
@@ -122,10 +126,14 @@ h5 {
   font-size: 1.4rem;
   font-family: var(--family2);
   font-weight: 600;
-  &.btn_lg{
+  @media (max-width: 1199px) {
+    width: 12rem;
+    height: 4.5rem;
+  }
+  &.btn_lg {
     width: 25rem;
   }
-  &.mt_71{
+  &.mt_71 {
     margin-top: 7.1rem;
   }
 }
@@ -142,16 +150,15 @@ h5 {
   font-size: 1.4rem;
   font-family: var(--family2);
   font-weight: 600;
-  &.mr_15{
+  &.mr_15 {
     margin-right: 1.5rem;
   }
 }
 
 // ..................... Button classes ....................End
 
-
 // .....................Font Sizes.................
-.font_36{
-  font-size: 3.6rem!important;
+.font_36 {
+  font-size: 3.6rem !important;
 }
 // .....................Font Sizes.................End

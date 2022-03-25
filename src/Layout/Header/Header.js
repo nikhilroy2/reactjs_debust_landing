@@ -17,19 +17,25 @@ function Header(props) {
       <div className="section_container">
         <nav className="navbar shadow-0 navbar-expand-lg navbar-light bg-light">
           <div className="container-fluid">
-            <button
-              className="navbar-toggler"
-              type="button"
-              data-mdb-toggle="collapse"
-              data-mdb-target="#navbarTogglerDemo01"
-              aria-controls="navbarTogglerDemo01"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <i className="fas fa-bars" />
-            </button>
+            <div className="d-flex justify-content-between align-items-center w-100">
+              <a className="navbar-brand brand_mr d-lg-none" href="#">
+                <img src={require("../../Static/img/logo.png")} alt="logo" />
+              </a>
+
+              <button
+                className="navbar-toggler"
+                type="button"
+                data-mdb-toggle="collapse"
+                data-mdb-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <i className="fas fa-bars" style={{fontSize: '3rem'}} />
+              </button>
+            </div>
             <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-              <a className="navbar-brand brand_mr" href="#">
+              <a className="navbar-brand brand_mr d-lg-block d-none" href="#">
                 <img src={require("../../Static/img/logo.png")} alt="logo" />
               </a>
               <ul className="navbar-nav navbar-nav1 me-auto mb-2 mb-lg-0">

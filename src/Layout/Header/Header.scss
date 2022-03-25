@@ -4,7 +4,7 @@
   margin-bottom: 4.9rem;
   position: fixed;
   width: 100%;
-  transition: .3s;
+  transition: 0.3s;
   background: transparent;
   &.Header_scroll_action {
     background: conic-gradient(
@@ -21,14 +21,20 @@
     color: var(--text-white);
   }
   .brand_mr {
-    margin-right: 5.8rem;
+    margin-right: 2rem;
+    @media (min-width: 1200px) {
+      margin-right: 5.8rem;
+    }
   }
   nav {
     background: transparent !important;
   }
   .navbar-nav1 {
     .nav-item:not(:last-child) {
-      margin-right: 3.7rem;
+      margin-right: 2rem;
+      @media (min-width: 1200px) {
+        margin-right: 3.7rem;
+      }
     }
   }
   .search_header_form {
@@ -50,6 +56,10 @@
       color: var(--text-white);
       background: transparent;
       margin-right: 4.3rem;
+      @media (max-width: 1350px) {
+        width: 20rem;
+        margin-right: 2rem;
+      }
       &::placeholder {
         color: var(--text-white);
       }

@@ -650,7 +650,7 @@ const Section5 = () => {
           <div className="row">
             {card_object.map((v) => {
               return (
-                <div className="col-md-6">
+                <div className="col-md-6" key={v.id}>
                   <div className="col_wrapper d-flex align-items-center">
                     <img
                       className={v.className + " cardImg"}
