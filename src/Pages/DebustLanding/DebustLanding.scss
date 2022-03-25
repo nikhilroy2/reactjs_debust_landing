@@ -33,6 +33,7 @@
   #Section4 {
     background: url("../../Static/img/section_bg4.png") center/cover no-repeat;
     padding-top: 6.6rem;
+    padding-bottom: 20rem;
     .card_section_body {
       padding: 5.5rem 4.5rem;
       background: linear-gradient(
@@ -42,9 +43,35 @@
       );
       border-radius: 1.2rem;
     }
-    .hiw_section{
+    .hiw_section {
       padding-top: 15.9rem;
       padding-bottom: 10.8rem;
+    }
+  }
+
+  #Section5 {
+    min-height: 94.5rem;
+    background: url("../../Static/img/section_bg5.png") center/cover no-repeat;
+    padding-top: 18.1rem;
+    padding-bottom: 1.4rem;
+    .goldBricks_img {
+      width: 20.5rem;
+      height: 20.5rem;
+    }
+    .Etherium_img {
+      width: 16.9rem;
+      height: 16.9rem;
+    }
+    .Safe-3 {
+      width: 19.8rem;
+      height: 19.8rem;
+    }
+    .People-3 {
+      width: 18.1rem;
+      height: 18.1rem;
+    }
+    .cardImg {
+      margin-right: 3.3rem;
     }
   }
 }

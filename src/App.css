@@ -141,6 +141,14 @@ h5.mb_head {
   font-weight: 600;
 }
 
+.btn_creator.btn_lg {
+  width: 25rem;
+}
+
+.btn_creator.mt_71 {
+  margin-top: 7.1rem;
+}
+
 .btn_explore_outline {
   background: transparent;
   color: var(--text-white) !important;
@@ -164,5 +172,9 @@ h5.mb_head {
 
 .btn_explore_outline.mr_15 {
   margin-right: 1.5rem;
+}
+
+.font_36 {
+  font-size: 3.6rem !important;
 }
 /*# sourceMappingURL=App.css.map */

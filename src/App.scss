@@ -122,6 +122,12 @@ h5 {
   font-size: 1.4rem;
   font-family: var(--family2);
   font-weight: 600;
+  &.btn_lg{
+    width: 25rem;
+  }
+  &.mt_71{
+    margin-top: 7.1rem;
+  }
 }
 .btn_explore_outline {
   background: transparent;
@@ -142,3 +148,10 @@ h5 {
 }
 
 // ..................... Button classes ....................End
+
+
+// .....................Font Sizes.................
+.font_36{
+  font-size: 3.6rem!important;
+}
+// .....................Font Sizes.................End

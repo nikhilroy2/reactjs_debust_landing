@@ -11,6 +11,7 @@ function DebustLanding(props) {
       <Section2></Section2>
       <Section3></Section3>
       <Section4></Section4>
+      <Section5></Section5>
     </div>
   );
 }
@@ -556,7 +557,7 @@ const Section4 = () => {
       <div className="section_container lg_container">
         <div className="section_body">
           <div className="row">
-            <div className="col">
+            <div className="col d-flex justify-content-center">
               <HowItWorkCard
                 leftIcon={true}
                 cardClass="firstCard"
@@ -565,7 +566,7 @@ const Section4 = () => {
                 cardDescription="Connect your wallet to get started"
               ></HowItWorkCard>
             </div>
-            <div className="col">
+            <div className="col d-flex justify-content-center">
               <HowItWorkCard
                 leftIcon={true}
                 cardClass="secondCard"
@@ -574,13 +575,102 @@ const Section4 = () => {
                 cardDescription="Then publish your review of the service"
               ></HowItWorkCard>
             </div>
-            <div className="col">
+            <div className="col d-flex justify-content-center">
               <HowItWorkCard
                 cardClass="thirdClass"
                 cardLogo={require("../../Static/img/Earn_Rewards.png")}
                 cardName="Earn Rewards"
                 cardDescription="Finally Earn your reward after completion"
               ></HowItWorkCard>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+const Section5 = () => {
+  const card_object = [
+    {
+      id: 1,
+      img: require("../../Static/img/GoldBricks-3.png"),
+      description: (
+        <>
+          Access to <br />
+          Debust events
+        </>
+      ),
+      className: "goldBricks_img",
+    },
+    {
+      id: 2,
+      img: require("../../Static/img/Etherium-3.png"),
+      description: (
+        <>
+          Access to Courses & Workshops <br />
+          on Debust NFTs
+        </>
+      ),
+      className: "Etherium_img",
+    },
+    {
+      id: 3,
+      img: require("../../Static/img/Safe-3.png"),
+      description: (
+        <>
+          Insights to the <br />
+          Hottest NFT Trends
+        </>
+      ),
+      className: "Safe-3",
+    },
+    {
+      id: 4,
+      img: require("../../Static/img/People-2.png"),
+      description: (
+        <>
+          Early access to Debust <br />
+          Membership club
+        </>
+      ),
+      className: "People-3",
+    },
+  ];
+  return (
+    <section id="Section5">
+      <div className="section_container">
+        <div className="section_title">
+          <h3 className="title">Why use DEBUST Coins ?</h3>
+          <strong className="subtitle font_36">
+            Use DEBUST Coins to unlock exclusive Membership Tokens like:
+          </strong>
+        </div>
+        <div className="section_body">
+          <div className="row">
+            {card_object.map((v) => {
+              return (
+                <div className="col-md-6">
+                  <div className="col_wrapper d-flex align-items-center">
+                    <img
+                      className={v.className + " cardImg"}
+                      src={v.img}
+                      alt="img"
+                    />
+                    <p className="font_36" style={{ lineHeight: "5rem" }}>
+                      {v.description}
+                    </p>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+
+          <div className="row">
+            <div className="col-12">
+              <a href="#" className="btn_creator btn_lg mt_71 ms-4">
+                Get Started
+              </a>
             </div>
           </div>
         </div>
