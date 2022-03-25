@@ -4,23 +4,35 @@
   margin-bottom: 4.9rem;
   position: fixed;
   width: 100%;
+  transition: .3s;
+  background: transparent;
+  &.Header_scroll_action {
+    background: conic-gradient(
+      from 134.99deg at 50% 50%,
+      #8971f3 0deg,
+      #6c55d0 191.25deg,
+      #6c55ce 360deg
+    );
+    z-index: 999;
+    margin-top: 0px;
+  }
   * {
     font-size: 1.6rem;
     color: var(--text-white);
   }
-  .brand_mr{
+  .brand_mr {
     margin-right: 5.8rem;
   }
-  nav{
-    background: transparent!important;
+  nav {
+    background: transparent !important;
   }
-  .navbar-nav1{
-    .nav-item:not(:last-child){
+  .navbar-nav1 {
+    .nav-item:not(:last-child) {
       margin-right: 3.7rem;
     }
   }
   .search_header_form {
-    #search-addon{
+    #search-addon {
       top: 50%;
       transform: translateY(-50%);
       left: 2.2rem;
@@ -38,7 +50,7 @@
       color: var(--text-white);
       background: transparent;
       margin-right: 4.3rem;
-      &::placeholder{
+      &::placeholder {
         color: var(--text-white);
       }
     }

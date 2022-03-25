@@ -1,8 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.css";
 function Header(props) {
+  const [scrollClass, setScrollClass] = useState("");
+  window.addEventListener("scroll", (e) => {
+    if (
+      document.body.scrollTop > 60 ||
+      document.documentElement.scrollTop > 60
+    ) {
+      setScrollClass("Header_scroll_action");
+    } else {
+      setScrollClass("");
+    }
+  });
   return (
-    <header id="Header">
+    <header id="Header" className={scrollClass}>
       <div className="section_container">
         <nav className="navbar shadow-0 navbar-expand-lg navbar-light bg-light">
           <div className="container-fluid">

@@ -3,6 +3,15 @@
   margin-bottom: 4.9rem;
   position: fixed;
   width: 100%;
+  -webkit-transition: .3s;
+  transition: .3s;
+  background: transparent;
+}
+
+#Header.Header_scroll_action {
+  background: conic-gradient(from 134.99deg at 50% 50%, #8971f3 0deg, #6c55d0 191.25deg, #6c55ce 360deg);
+  z-index: 999;
+  margin-top: 0px;
 }
 
 #Header * {
