@@ -133,13 +133,20 @@ h5.mb_head {
 
 @media (max-width: 600px) {
   .section_title .subtitle {
-    font-size: 1.7rem;
+    font-size: 1.7rem !important;
   }
 }
 
 .section_title .view_all {
   font-size: 2.4rem;
   color: rgba(255, 255, 255, 0.8);
+}
+
+@media (max-width: 600px) {
+  .section_title .view_all {
+    font-size: 1.6rem;
+    white-space: nowrap;
+  }
 }
 
 .btn_log {
@@ -205,8 +212,21 @@ h5.mb_head {
   width: 25rem;
 }
 
+@media (max-width: 400px) {
+  .btn_creator.btn_lg {
+    width: 100%;
+    margin-left: 0px !important;
+  }
+}
+
 .btn_creator.mt_71 {
   margin-top: 7.1rem;
+}
+
+@media (max-width: 600px) {
+  .btn_creator.mt_71 {
+    margin-top: 2rem;
+  }
 }
 
 .btn_explore_outline {
@@ -236,6 +256,13 @@ h5.mb_head {
 
 .font_36 {
   font-size: 3.6rem !important;
+}
+
+@media (max-width: 767px) {
+  .font_36.res_font {
+    font-size: 1.8rem !important;
+    line-height: 2.5rem !important;
+  }
 }
 
 .object_cover {

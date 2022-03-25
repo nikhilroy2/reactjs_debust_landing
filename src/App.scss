@@ -103,12 +103,16 @@ h5 {
     color: rgba(255, 255, 255, 0.8);
     font-weight: normal;
     @media (max-width: 600px){
-      font-size: 1.7rem;
+      font-size: 1.7rem!important;
     }
   }
   .view_all {
     font-size: 2.4rem;
     color: rgba(255, 255, 255, 0.8);
+    @media (max-width: 600px){
+      font-size: 1.6rem;
+      white-space: nowrap;
+    }
   }
 }
 // .....................Section classes ...................End
@@ -157,9 +161,16 @@ h5 {
   }
   &.btn_lg {
     width: 25rem;
+    @media (max-width: 400px){
+      width: 100%;
+      margin-left: 0px!important;
+    }
   }
   &.mt_71 {
     margin-top: 7.1rem;
+    @media (max-width: 600px){
+      margin-top: 2rem;
+    }
   }
 }
 .btn_explore_outline {
@@ -185,6 +196,12 @@ h5 {
 // .....................Font Sizes.................
 .font_36 {
   font-size: 3.6rem !important;
+  @media (max-width: 767px){
+    &.res_font{
+      font-size: 1.8rem!important;
+      line-height: 2.5rem!important;
+    }
+  }
 }
 // .....................Font Sizes.................End
 

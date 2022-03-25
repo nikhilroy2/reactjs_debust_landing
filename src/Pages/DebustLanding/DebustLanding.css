@@ -71,9 +71,30 @@
   padding-bottom: 1.4rem;
 }
 
+@media (max-width: 600px) {
+  #DebustLanding #Section5 {
+    min-height: auto;
+    padding-top: 6.1rem;
+  }
+}
+
 #DebustLanding #Section5 .goldBricks_img {
   width: 20.5rem;
   height: 20.5rem;
+}
+
+@media (max-width: 767px) {
+  #DebustLanding #Section5 .goldBricks_img {
+    width: 12.5rem;
+    height: 12.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  #DebustLanding #Section5 .goldBricks_img {
+    width: 6.5rem;
+    height: 6.5rem;
+  }
 }
 
 #DebustLanding #Section5 .Etherium_img {
@@ -81,9 +102,37 @@
   height: 16.9rem;
 }
 
+@media (max-width: 767px) {
+  #DebustLanding #Section5 .Etherium_img {
+    width: 10.5rem;
+    height: 10.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  #DebustLanding #Section5 .Etherium_img {
+    width: 5.5rem;
+    height: 5.5rem;
+  }
+}
+
 #DebustLanding #Section5 .Safe-3 {
   width: 19.8rem;
   height: 19.8rem;
+}
+
+@media (max-width: 767px) {
+  #DebustLanding #Section5 .Safe-3 {
+    width: 11.5rem;
+    height: 11.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  #DebustLanding #Section5 .Safe-3 {
+    width: 6.5rem;
+    height: 6.5rem;
+  }
 }
 
 #DebustLanding #Section5 .People-3 {
@@ -91,7 +140,27 @@
   height: 18.1rem;
 }
 
+@media (max-width: 767px) {
+  #DebustLanding #Section5 .People-3 {
+    width: 9.5rem;
+    height: 9.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  #DebustLanding #Section5 .People-3 {
+    width: 5.5rem;
+    height: 5.5rem;
+  }
+}
+
 #DebustLanding #Section5 .cardImg {
   margin-right: 3.3rem;
+}
+
+@media (max-width: 767px) {
+  #DebustLanding #Section5 .cardImg {
+    margin-right: 1rem;
+  }
 }
 /*# sourceMappingURL=DebustLanding.css.map */

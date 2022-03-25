@@ -643,7 +643,7 @@ const Section5 = () => {
       <div className="section_container">
         <div className="section_title">
           <h3 className="title">Why use DEBUST Coins ?</h3>
-          <strong className="subtitle font_36">
+          <strong className="subtitle font_36 res_font">
             Use DEBUST Coins to unlock exclusive Membership Tokens like:
           </strong>
         </div>
@@ -658,7 +658,7 @@ const Section5 = () => {
                       src={v.img}
                       alt="img"
                     />
-                    <p className="font_36" style={{ lineHeight: "5rem" }}>
+                    <p className="font_36 res_font" style={{ lineHeight: "5rem" }}>
                       {v.description}
                     </p>
                   </div>
