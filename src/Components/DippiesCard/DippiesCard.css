@@ -22,6 +22,12 @@
   border-radius: 0.5rem;
 }
 
+@media (max-width: 600px) {
+  #DippiesCard .card_img {
+    height: 15rem;
+  }
+}
+
 #DippiesCard .card-body,
 #DippiesCard .card {
   background: transparent !important;
@@ -94,6 +100,19 @@
   }
 }
 
+@media (max-width: 600px) {
+  #DippiesCard .card_overlay_box {
+    width: 100%;
+    zoom: 0.6;
+  }
+}
+
+@media (max-width: 340px) {
+  #DippiesCard .card_overlay_box {
+    zoom: 0.4;
+  }
+}
+
 #DippiesCard .card_overlay_box .overlay_list li:first-child {
   margin-right: 1.9rem;
 }
@@ -127,6 +146,12 @@
 
 #DippiesCard .card_overlay_box .overlay_list .card_footer_overlay p {
   font-size: 1.4rem;
+}
+
+@media (max-width: 600px) {
+  #DippiesCard .card_footer_symbol {
+    zoom: .7;
+  }
 }
 
 #DippiesCard .card_footer_symbol li {

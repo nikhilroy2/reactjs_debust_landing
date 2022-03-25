@@ -35,11 +35,11 @@ const Section1 = () => (
         </div>
       </div>
       <div className="btn_wrapper d-flex flex-wrap">
-        <a href="#" className="btn_explore_outline mr_15">
+        <a href="#" className="btn_explore_outline mr_15 mb-3 mb-sm-0">
           Explore Now
         </a>
 
-        <a href="#" className="btn_creator">
+        <a href="#" className="btn_creator mb-3 mb-sm-0">
           Get Started
         </a>
       </div>
@@ -75,13 +75,14 @@ const Section2 = () => {
       <div className="section_container lg_container">
         <div className="section_body">
           <div className="section_body_card_wrapper">
-            <div className="row">
+            <div className="row gy-4">
               {card_object.map((v) => {
                 return (
-                  <div className="col" key={v.id}>
+                  <div className="col-12 col-md-6 col-lg-4" key={v.id}>
                     <DippiesCard
                       img_src={v.img}
                       card_footer_symbol={true}
+                      full_size={true}
                     ></DippiesCard>
                   </div>
                 );

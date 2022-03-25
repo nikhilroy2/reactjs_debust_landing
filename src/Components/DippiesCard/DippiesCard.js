@@ -1,17 +1,19 @@
 import React from "react";
 import "./DippiesCard.css";
-function DippiesCard({ overlay, card_footer_symbol, img_src=require("../../Static/img/dippies_img.png") }) {
+function DippiesCard({
+  overlay,
+  card_footer_symbol,
+  img_src = require("../../Static/img/dippies_img.png"),
+  full_size
+}) {
   return (
-    <div id="DippiesCard">
+    <div id="DippiesCard" className={full_size&&'w-100'}>
       <div className="card shadow-0">
         <div
           className="bg-image hover-overlay header_img"
           data-mdb-ripple-color="light"
         >
-          <img
-            src={img_src}
-            className="img-fluid w-100 card_img"
-          />
+          <img src={img_src} className="img-fluid w-100 card_img object_cover" />
           <a href="#!">
             <div
               className="mask"
