@@ -11,6 +11,12 @@
   padding: 1.3rem 0.9rem;
 }
 
+@media (max-width: 500px) {
+  #DippiesCard {
+    width: 100%;
+  }
+}
+
 #DippiesCard .card_img {
   height: 20.62rem;
   border-radius: 0.5rem;
@@ -73,6 +79,19 @@
           backdrop-filter: blur(25px);
   /* Note: backdrop-filter has minimal browser support */
   border-radius: 1.2rem;
+}
+
+@media (max-width: 1199px) {
+  #DippiesCard .card_overlay_box {
+    bottom: 50%;
+    left: -80%;
+  }
+}
+
+@media (max-width: 991px) {
+  #DippiesCard .card_overlay_box {
+    position: static;
+  }
 }
 
 #DippiesCard .card_overlay_box .overlay_list li:first-child {

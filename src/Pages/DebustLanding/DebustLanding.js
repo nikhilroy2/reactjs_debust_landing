@@ -21,7 +21,7 @@ export default DebustLanding;
 const Section1 = () => (
   <section id="Section1">
     <div className="section_container">
-      <div className="d-flex flex_wrapper">
+      <div className="d-flex flex_wrapper flex-wrap flex-xl-nowrap">
         <div className="box box1">
           <h1 className="mb_head">Democratizing Experiences in Web 3.0</h1>
           <h5 className="mb_head">
@@ -30,7 +30,7 @@ const Section1 = () => (
             authentic decentralized recommendations.
           </h5>
         </div>
-        <div className="box ms-auto">
+        <div className="box me-auto me-lg-0 ms-auto mb-5 mb-lg-0">
           <DippiesCard overlay={true}></DippiesCard>
         </div>
       </div>

@@ -70,6 +70,10 @@ h5 {
   &.lg_container {
     max-width: 1430px;
   }
+  @media (max-width: 1500px){
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 .section_title {
   margin-bottom: 8.3rem;

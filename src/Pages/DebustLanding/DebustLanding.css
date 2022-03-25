@@ -8,6 +8,12 @@
   width: 85.4rem;
 }
 
+@media (max-width: 1199px) {
+  #DebustLanding #Section1 {
+    padding-top: 12rem;
+  }
+}
+
 #DebustLanding #Section2 {
   min-height: 108rem;
   background: url("../../Static/img/section_bg2.png") center/cover no-repeat;
