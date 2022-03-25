@@ -8,10 +8,27 @@
   background: transparent;
 }
 
+@media (max-width: 1389px) {
+  #Header {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
 #Header.Header_scroll_action {
   background: conic-gradient(from 134.99deg at 50% 50%, #8971f3 0deg, #6c55d0 191.25deg, #6c55ce 360deg);
   z-index: 999;
   margin-top: 0px;
+}
+
+@media (max-width: 991px) {
+  #Header {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    background: conic-gradient(from 134.99deg at 50% 50%, #8971f3 0deg, #6c55d0 191.25deg, #6c55ce 360deg) fixed !important;
+    z-index: 999;
+    margin-top: 0px;
+  }
 }
 
 #Header * {
@@ -70,6 +87,13 @@
   #Header .search_header_form input {
     width: 20rem;
     margin-right: 2rem;
+  }
+}
+
+@media (max-width: 991px) {
+  #Header .search_header_form input {
+    width: 100%;
+    margin-right: 0rem;
   }
 }
 

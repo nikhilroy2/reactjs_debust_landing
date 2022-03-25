@@ -6,6 +6,11 @@
   width: 100%;
   transition: 0.3s;
   background: transparent;
+  @media (max-width: 1389px) {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
   &.Header_scroll_action {
     background: conic-gradient(
       from 134.99deg at 50% 50%,
@@ -13,6 +18,19 @@
       #6c55d0 191.25deg,
       #6c55ce 360deg
     );
+    z-index: 999;
+    margin-top: 0px;
+  }
+  @media (max-width: 991px) {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    background: conic-gradient(
+        from 134.99deg at 50% 50%,
+        #8971f3 0deg,
+        #6c55d0 191.25deg,
+        #6c55ce 360deg
+      )
+      fixed!important;
     z-index: 999;
     margin-top: 0px;
   }
@@ -59,6 +77,11 @@
       @media (max-width: 1350px) {
         width: 20rem;
         margin-right: 2rem;
+      }
+      @media (max-width: 991px) {
+        width: 100%;
+        margin-right: 0rem;
+
       }
       &::placeholder {
         color: var(--text-white);

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Header.css";
 function Header(props) {
   const [scrollClass, setScrollClass] = useState("");
+  const [toggle, setToggle] = useState(false);
   window.addEventListener("scroll", (e) => {
     if (
       document.body.scrollTop > 60 ||
@@ -17,12 +18,12 @@ function Header(props) {
       <div className="section_container">
         <nav className="navbar shadow-0 navbar-expand-lg navbar-light bg-light">
           <div className="container-fluid">
-            <div className="d-flex justify-content-between align-items-center w-100">
+            <div className="d-flex d-lg-none justify-content-between align-items-center w-100">
               <a className="navbar-brand brand_mr d-lg-none" href="#">
                 <img src={require("../../Static/img/logo.png")} alt="logo" />
               </a>
-
               <button
+                onClick={() => setToggle(!toggle)}
                 className="navbar-toggler"
                 type="button"
                 data-mdb-toggle="collapse"
@@ -31,7 +32,11 @@ function Header(props) {
                 aria-expanded="false"
                 aria-label="Toggle navigation"
               >
-                <i className="fas fa-bars" style={{fontSize: '3rem'}} />
+                {toggle ? (
+                  <i className="fas fa-times" style={{ fontSize: "3rem" }} />
+                ) : (
+                  <i className="fas fa-bars" style={{ fontSize: "3rem" }} />
+                )}
               </button>
             </div>
             <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
@@ -62,8 +67,8 @@ function Header(props) {
                 </li>
               </ul>
               <div className="d-flex">
-                <ul className="navbar-nav align-items-center">
-                  <li className="nav-item">
+                <ul className=" w-100 navbar-nav align-items-center w-100 flex-row flex-wrap flex-lg-nowrap">
+                  <li className="nav-item w-100">
                     <form action="" className="search_header_form">
                       <div className="input-group rounded position-relative">
                         <span
@@ -84,13 +89,13 @@ function Header(props) {
                     </form>
                   </li>
 
-                  <li className="nav-item">
+                  <li className="nav-item mt-3 mt-lg-0">
                     <a href="#" className="nav-link btn_log mr_15">
                       Log In
                     </a>
                   </li>
 
-                  <li className="nav-item">
+                  <li className="nav-item mt-3 mt-lg-0">
                     <a href="#" className="nav-link btn_creator">
                       For Creators
                     </a>
