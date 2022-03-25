@@ -4,9 +4,12 @@ function Footer(props) {
   return (
     <footer id="Footer">
       <div className="section_container">
-        <div className="row footer_row align-items-center">
-          <div className="col text-center">
-            <ul className="list-unstyled d-flex justify-content-between">
+        <div className="row gx-5 footer_row align-items-center">
+          <div className="col-12 text-center d-xl-none mb-3">
+            <h3>DEBUST</h3>
+          </div>
+          <div className="col-md-6 col-xl-4 text-center">
+            <ul className="list-unstyled d-flex flex-wrap justify-content-between">
               <li>
                 <a href="#">Mobile app</a>
               </li>
@@ -18,11 +21,11 @@ function Footer(props) {
               </li>
             </ul>
           </div>
-          <div className="col text-center">
+          <div className="col-md-6 col-xl-4 text-center d-none d-xl-block">
             <h3>DEBUST</h3>
           </div>
-          <div className="col text-center">
-            <ul className="list-unstyled d-flex justify-content-between">
+          <div className="col-md-6 col-xl-4 text-center">
+            <ul className="list-unstyled d-flex flex-wrap justify-content-between">
               <li>
                 <a href="#">Help desk</a>
               </li>
@@ -37,7 +40,9 @@ function Footer(props) {
         </div>
         <SocialIcons></SocialIcons>
 
-        <p className="text-center copyright_content">© Debust 2022. We love our users!</p>
+        <p className="text-center copyright_content">
+          © Debust 2022. We love our users!
+        </p>
       </div>
     </footer>
   );
