@@ -1,6 +1,7 @@
 import React from "react";
 import ReviewWriting from "../../Components/ReviewWriting/ReviewWriting";
 import ContentProgress from "../ContentProgress/ContentProgress";
+import UserReviewList from "../../Components/UserReviewList/UserReviewList";
 import { Link } from "react-router-dom";
 import "./SelectedNFTPage.css";
 function SelectedNFTPage(props) {
@@ -261,6 +262,7 @@ const Section1 = () => {
           </div>
           <ReviewWriting></ReviewWriting>
           <ContentProgress></ContentProgress>
+          <UserReviewList></UserReviewList>
         </div>
       </div>
     </section>
