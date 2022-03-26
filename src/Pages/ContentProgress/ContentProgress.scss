@@ -1,3 +1,31 @@
-#ContentProgress{
-    
+#ContentProgress {
+  margin-top: 10.1rem;
+  margin-bottom: 15.1rem;
+  .progress_list {
+    li {
+      margin-bottom: 1.8rem;
+    }
+    .progress_box {
+      font-size: 2.4rem;
+      svg {
+        margin-right: 3.4rem;
+      }
+      .progress_name {
+        margin-right: 2.7rem;
+        min-width: 15.6rem;
+        display: block;
+      }
+      .progress_bar {
+        width: 100%;
+        background: var(--text-be);
+        height: 2.4rem;
+        margin-right: 3.6rem;
+        .total_progress {
+          display: block;
+          height: 100%;
+          background: var(--text-87);
+        }
+      }
+    }
+  }
 }

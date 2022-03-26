@@ -1,1 +1,36 @@
-/* No CSS *//*# sourceMappingURL=ContentProgress.css.map */
+#ContentProgress {
+  margin-top: 10.1rem;
+  margin-bottom: 15.1rem;
+}
+
+#ContentProgress .progress_list li {
+  margin-bottom: 1.8rem;
+}
+
+#ContentProgress .progress_list .progress_box {
+  font-size: 2.4rem;
+}
+
+#ContentProgress .progress_list .progress_box svg {
+  margin-right: 3.4rem;
+}
+
+#ContentProgress .progress_list .progress_box .progress_name {
+  margin-right: 2.7rem;
+  min-width: 15.6rem;
+  display: block;
+}
+
+#ContentProgress .progress_list .progress_box .progress_bar {
+  width: 100%;
+  background: var(--text-be);
+  height: 2.4rem;
+  margin-right: 3.6rem;
+}
+
+#ContentProgress .progress_list .progress_box .progress_bar .total_progress {
+  display: block;
+  height: 100%;
+  background: var(--text-87);
+}
+/*# sourceMappingURL=ContentProgress.css.map */
