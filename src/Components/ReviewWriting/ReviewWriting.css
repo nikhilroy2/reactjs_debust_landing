@@ -1,0 +1,55 @@
+#ReviewWriting {
+  margin-top: 5.2rem;
+}
+
+#ReviewWriting #review_writing_form .form_group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#ReviewWriting #review_writing_form .form_group .review_input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: var(--text-white);
+  border-bottom: 2px solid var(--text-c0);
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+#ReviewWriting #review_writing_form .form_group .review_input::-webkit-input-placeholder {
+  color: var(--text-white);
+}
+
+#ReviewWriting #review_writing_form .form_group .review_input:-ms-input-placeholder {
+  color: var(--text-white);
+}
+
+#ReviewWriting #review_writing_form .form_group .review_input::-ms-input-placeholder {
+  color: var(--text-white);
+}
+
+#ReviewWriting #review_writing_form .form_group .review_input::placeholder {
+  color: var(--text-white);
+}
+
+#ReviewWriting #review_writing_form .form_group .star_action_wrapper {
+  margin-left: 3.8rem;
+}
+
+#ReviewWriting #review_writing_form .form_group .star_action_wrapper .star_btn {
+  border: none;
+  outline: none;
+  background: transparent;
+  margin-left: 1rem;
+}
+
+#ReviewWriting #review_writing_form .form_group .star_action_wrapper .star_btn:last-child {
+  margin-right: 0px;
+}
+/*# sourceMappingURL=ReviewWriting.css.map */

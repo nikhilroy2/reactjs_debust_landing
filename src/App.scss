@@ -23,8 +23,8 @@
   --text-fa8: rgba(255, 255, 255, 0.8);
   --text-f8: #a694f8;
   --text-ae: #5743ae;
-  --text-c0: #C0AAFF;
-  --text-17: #FFB017;
+  --text-c0: #c0aaff;
+  --text-17: #ffb017;
   // family variable
   --family1: "Montserrat", sans-serif;
   --family2: "Poppins", sans-serif;
@@ -229,6 +229,16 @@ h5 {
   &.btn_mt_28 {
     margin-top: 2.86rem;
   }
+}
+.btn_msg_send {
+  border: none !important;
+  outline: none !important;
+  background: transparent;
+  box-shadow: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 1rem;
 }
 
 // ..................... Button classes ....................End

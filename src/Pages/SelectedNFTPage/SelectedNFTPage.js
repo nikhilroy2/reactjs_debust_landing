@@ -1,4 +1,5 @@
 import React from "react";
+import ReviewWriting from "../../Components/ReviewWriting/ReviewWriting";
 import { Link } from "react-router-dom";
 import "./SelectedNFTPage.css";
 function SelectedNFTPage(props) {
@@ -257,6 +258,7 @@ const Section1 = () => {
               </div>
             </div>
           </div>
+          <ReviewWriting></ReviewWriting>
         </div>
       </div>
     </section>
