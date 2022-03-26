@@ -150,7 +150,7 @@
 
 @media (max-width: 600px) {
   #DippiesCard .card_footer_symbol {
-    zoom: .7;
+    zoom: 0.7;
   }
 }
 
@@ -163,6 +163,11 @@
   height: 5rem;
   -o-object-position: center top;
      object-position: center top;
+}
+
+#DippiesCard .card_footer_symbol li img.symbol_lg {
+  width: 4.2rem;
+  height: 9.9rem;
 }
 
 #DippiesCard .card_footer_symbol li:last-child {

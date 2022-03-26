@@ -1,0 +1,100 @@
+#SearchPage #Section1 {
+  padding-top: 18rem;
+  min-height: 108rem;
+  background: url("../../Static/img/section_1_img.png") center/cover no-repeat fixed;
+}
+
+@media (max-width: 1199px) {
+  #SearchPage #Section1 {
+    padding-top: 12rem;
+    padding-bottom: 3rem;
+  }
+}
+
+#SearchPage #Section1 .breadcrumb {
+  margin-bottom: 5.2rem;
+}
+
+@media (max-width: 767px) {
+  #SearchPage #Section1 .breadcrumb {
+    margin-bottom: 3rem;
+  }
+}
+
+#SearchPage #Section1 .breadcrumb a,
+#SearchPage #Section1 .breadcrumb li {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 2.4rem;
+}
+
+@media (max-width: 767px) {
+  #SearchPage #Section1 .breadcrumb a,
+  #SearchPage #Section1 .breadcrumb li {
+    font-size: 1.7rem;
+  }
+}
+
+#SearchPage #Section1 .breadcrumb li.active {
+  color: var(--text-white);
+}
+
+#SearchPage #Section1 .breadcrumb .breadcrumb-item:before {
+  color: var(--text-white);
+}
+
+#SearchPage #Section1 .section_tab_body .nav-tabs {
+  padding-bottom: 6.2rem;
+}
+
+@media (max-width: 767px) {
+  #SearchPage #Section1 .section_tab_body .nav-tabs {
+    padding-bottom: 3rem;
+  }
+}
+
+#SearchPage #Section1 .section_tab_body .nav-tabs .nav-link {
+  font-size: 2rem;
+  padding: 0.8rem 1.4rem;
+  border-radius: 1.2rem;
+  color: var(--text-white);
+  border: none;
+  text-transform: capitalize;
+  margin-right: 1.5rem;
+}
+
+#SearchPage #Section1 .section_tab_body .nav-tabs .nav-link.active, #SearchPage #Section1 .section_tab_body .nav-tabs .nav-link:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(91, 77, 149, 0.65)), to(rgba(31, 18, 87, 0.442)));
+  background: linear-gradient(180deg, rgba(91, 77, 149, 0.65) 0%, rgba(31, 18, 87, 0.442) 100%);
+  -webkit-backdrop-filter: blur(25px);
+          backdrop-filter: blur(25px);
+}
+
+#SearchPage #Section1 .pagination_wrapper {
+  padding-top: 4.6rem;
+  padding-bottom: 8.9rem;
+}
+
+#SearchPage #Section1 .pagination_wrapper a {
+  font-size: 2rem !important;
+  color: var(--text-white);
+}
+
+@media (max-width: 767px) {
+  #SearchPage #Section1 .pagination_wrapper a {
+    font-size: 1.6rem !important;
+    padding: .4rem;
+  }
+}
+
+#SearchPage #Section1 .pagination_wrapper a.active, #SearchPage #Section1 .pagination_wrapper a:hover {
+  background: transparent;
+}
+
+#SearchPage #Section1 .pagination_wrapper a.active:not(.page_next), #SearchPage #Section1 .pagination_wrapper a:hover:not(.page_next) {
+  color: var(--text-f8);
+}
+
+#SearchPage #Section1 .pagination_wrapper a.active {
+  pointer-events: none;
+}
+/*# sourceMappingURL=SearchPage.css.map */

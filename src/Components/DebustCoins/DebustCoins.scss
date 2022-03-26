@@ -1,0 +1,64 @@
+#DebustCoins {
+    min-height: 94.5rem;
+    background: url("../../Static/img/section_bg5.png") center/cover no-repeat;
+    padding-top: 18.1rem;
+    padding-bottom: 1.4rem;
+    @media (max-width: 600px) {
+      min-height: auto;
+      padding-top: 6.1rem;
+    }
+    .goldBricks_img {
+      width: 20.5rem;
+      height: 20.5rem;
+      @media (max-width: 767px) {
+        width: 12.5rem;
+        height: 12.5rem;
+      }
+      @media (max-width: 500px) {
+        width: 6.5rem;
+        height: 6.5rem;
+      }
+    }
+    .Etherium_img {
+      width: 16.9rem;
+      height: 16.9rem;
+      @media (max-width: 767px) {
+        width: 10.5rem;
+        height: 10.5rem;
+      }
+      @media (max-width: 500px) {
+        width: 5.5rem;
+        height: 5.5rem;
+      }
+    }
+    .Safe-3 {
+      width: 19.8rem;
+      height: 19.8rem;
+      @media (max-width: 767px) {
+        width: 11.5rem;
+        height: 11.5rem;
+      }
+      @media (max-width: 500px) {
+        width: 6.5rem;
+        height: 6.5rem;
+      }
+    }
+    .People-3 {
+      width: 18.1rem;
+      height: 18.1rem;
+      @media (max-width: 767px) {
+        width: 9.5rem;
+        height: 9.5rem;
+      }
+      @media (max-width: 500px) {
+        width: 5.5rem;
+        height: 5.5rem;
+      }
+    }
+    .cardImg {
+      margin-right: 3.3rem;
+      @media (max-width: 767px) {
+        margin-right: 1rem;
+      }
+    }
+  }

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Header.css";
+import { Link } from "react-router-dom";
 function Header(props) {
   const [scrollClass, setScrollClass] = useState("");
   const [toggle, setToggle] = useState(false);
@@ -19,9 +20,9 @@ function Header(props) {
         <nav className="navbar shadow-0 navbar-expand-lg navbar-light bg-light">
           <div className="container-fluid">
             <div className="d-flex d-lg-none justify-content-between align-items-center w-100">
-              <a className="navbar-brand brand_mr d-lg-none" href="#">
+              <Link to="/" className="navbar-brand brand_mr d-lg-none">
                 <img src={require("../../Static/img/logo.png")} alt="logo" />
-              </a>
+              </Link>
               <button
                 onClick={() => setToggle(!toggle)}
                 className="navbar-toggler"
@@ -40,9 +41,10 @@ function Header(props) {
               </button>
             </div>
             <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-              <a className="navbar-brand brand_mr d-lg-block d-none" href="#">
+              <Link to="/" className="navbar-brand brand_mr d-lg-block d-none">
                 <img src={require("../../Static/img/logo.png")} alt="logo" />
-              </a>
+              </Link>
+
               <ul className="navbar-nav navbar-nav1 me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
                   <a className="nav-link" href="#">

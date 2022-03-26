@@ -17,7 +17,7 @@
   .card_img {
     height: 20.62rem;
     border-radius: 0.5rem;
-    @media (max-width: 600px){
+    @media (max-width: 600px) {
       height: 15rem;
     }
   }
@@ -120,8 +120,8 @@
     }
   }
   .card_footer_symbol {
-    @media (max-width: 600px){
-      zoom: .7;
+    @media (max-width: 600px) {
+      zoom: 0.7;
     }
     li {
       margin-right: 1.6rem;
@@ -129,6 +129,10 @@
         width: 4.2rem;
         height: 5rem;
         object-position: center top;
+        &.symbol_lg {
+          width: 4.2rem;
+          height: 9.9rem;
+        }
       }
       &:last-child {
         margin-right: 0px;

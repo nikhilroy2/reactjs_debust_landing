@@ -4,16 +4,21 @@ function DippiesCard({
   overlay,
   card_footer_symbol,
   img_src = require("../../Static/img/dippies_img.png"),
-  full_size
+  full_size,
+  card_footer_symbol_lg,
+  card_counter="0"
 }) {
   return (
-    <div id="DippiesCard" className={full_size&&'w-100'}>
+    <div id="DippiesCard" className={full_size && "w-100"}>
       <div className="card shadow-0">
         <div
           className="bg-image hover-overlay header_img"
           data-mdb-ripple-color="light"
         >
-          <img src={img_src} className="img-fluid w-100 card_img object_cover" />
+          <img
+            src={img_src}
+            className="img-fluid w-100 card_img object_cover"
+          />
           <a href="#!">
             <div
               className="mask"
@@ -248,10 +253,19 @@ function DippiesCard({
         <div className="card_footer_symbol mt-4 mt-md-5">
           <ul className="list-unstyled d-flex overlay_list justify-content-center flex-wrap">
             <li>
-              <img
-                src={require("../../Static/img/overlay_icon1.png")}
-                alt="overlay_icon1"
-              />
+              {card_footer_symbol_lg ? (
+                <img
+                  src={require("../../Static/img/01.png")}
+                  alt="01.png"
+                  className="symbol_lg"
+                />
+              ) : (
+                <img
+                  src={require("../../Static/img/overlay_icon1.png")}
+                  alt="overlay_icon1"
+                />
+              )}
+
               <span className="d-flex align-items-center justify-content-center text-center text-white family_poppins mt-2">
                 5
                 <svg
@@ -264,11 +278,11 @@ function DippiesCard({
                 >
                   <path
                     d="M9 12.9525L13.635 15.75L12.405 10.4775L16.5 6.93L11.1075 6.4725L9 1.5L6.8925 6.4725L1.5 6.93L5.595 10.4775L4.365 15.75L9 12.9525Z"
-                    fill="url(#paint0_angular_1_3493)"
+                    fill={`url(#paint0_angular_1_3493${card_counter})`}
                   />
                   <defs>
                     <radialGradient
-                      id="paint0_angular_1_3493"
+                      id={`paint0_angular_1_3493${card_counter}`}
                       cx={0}
                       cy={0}
                       r={1}
@@ -283,10 +297,18 @@ function DippiesCard({
               </span>
             </li>
             <li>
-              <img
-                src={require("../../Static/img/overlay_icon2.png")}
-                alt="overlay_icon2"
-              />
+              {card_footer_symbol_lg ? (
+                <img
+                  src={require("../../Static/img/02.png")}
+                  alt="01.png"
+                  className="symbol_lg"
+                />
+              ) : (
+                <img
+                  src={require("../../Static/img/overlay_icon2.png")}
+                  alt="overlay_icon2"
+                />
+              )}
               <span className="d-flex align-items-center justify-content-center text-center text-white family_poppins mt-2">
                 4
                 <svg
@@ -299,11 +321,11 @@ function DippiesCard({
                 >
                   <path
                     d="M9 12.9525L13.635 15.75L12.405 10.4775L16.5 6.93L11.1075 6.4725L9 1.5L6.8925 6.4725L1.5 6.93L5.595 10.4775L4.365 15.75L9 12.9525Z"
-                    fill="url(#paint0_angular_1_3493)"
+                    fill={`url(#paint0_angular_1_3493${card_counter})`}
                   />
                   <defs>
                     <radialGradient
-                      id="paint0_angular_1_3493"
+                      id={`paint0_angular_1_3493${card_counter}`}
                       cx={0}
                       cy={0}
                       r={1}
@@ -318,10 +340,18 @@ function DippiesCard({
               </span>
             </li>
             <li>
-              <img
-                src={require("../../Static/img/overlay_icon3.png")}
-                alt="overlay_icon3"
-              />
+              {card_footer_symbol_lg ? (
+                <img
+                  src={require("../../Static/img/02.png")}
+                  alt="03.png"
+                  className="symbol_lg"
+                />
+              ) : (
+                <img
+                  src={require("../../Static/img/overlay_icon3.png")}
+                  alt="overlay_icon3"
+                />
+              )}
 
               <span className="d-flex align-items-center justify-content-center text-center text-white family_poppins mt-2">
                 3
@@ -335,11 +365,11 @@ function DippiesCard({
                 >
                   <path
                     d="M9 12.9525L13.635 15.75L12.405 10.4775L16.5 6.93L11.1075 6.4725L9 1.5L6.8925 6.4725L1.5 6.93L5.595 10.4775L4.365 15.75L9 12.9525Z"
-                    fill="url(#paint0_angular_1_3493)"
+                    fill={`url(#paint0_angular_1_3493${card_counter})`}
                   />
                   <defs>
                     <radialGradient
-                      id="paint0_angular_1_3493"
+                      id={`paint0_angular_1_3493${card_counter}`}
                       cx={0}
                       cy={0}
                       r={1}
@@ -354,10 +384,18 @@ function DippiesCard({
               </span>
             </li>
             <li>
-              <img
-                src={require("../../Static/img/overlay_icon4.png")}
-                alt="overlay_icon4"
-              />
+              {card_footer_symbol_lg ? (
+                <img
+                  src={require("../../Static/img/02.png")}
+                  alt="04.png"
+                  className="symbol_lg"
+                />
+              ) : (
+                <img
+                  src={require("../../Static/img/overlay_icon4.png")}
+                  alt="overlay_icon4"
+                />
+              )}
 
               <span className="d-flex align-items-center justify-content-center text-center text-white family_poppins mt-2">
                 2
@@ -371,11 +409,11 @@ function DippiesCard({
                 >
                   <path
                     d="M9 12.9525L13.635 15.75L12.405 10.4775L16.5 6.93L11.1075 6.4725L9 1.5L6.8925 6.4725L1.5 6.93L5.595 10.4775L4.365 15.75L9 12.9525Z"
-                    fill="url(#paint0_angular_1_3493)"
+                    fill={`url(#paint0_angular_1_3493${card_counter})`}
                   />
                   <defs>
                     <radialGradient
-                      id="paint0_angular_1_3493"
+                      id={`paint0_angular_1_3493${card_counter}`}
                       cx={0}
                       cy={0}
                       r={1}
@@ -390,10 +428,18 @@ function DippiesCard({
               </span>
             </li>
             <li>
-              <img
-                src={require("../../Static/img/overlay_icon5.png")}
-                alt="overlay_icon5"
-              />
+              {card_footer_symbol_lg ? (
+                <img
+                  src={require("../../Static/img/5.png")}
+                  alt="05.png"
+                  className="symbol_lg"
+                />
+              ) : (
+                <img
+                  src={require("../../Static/img/overlay_icon5.png")}
+                  alt="overlay_icon5"
+                />
+              )}
 
               <span className="d-flex align-items-center justify-content-center text-center text-white family_poppins mt-2">
                 1
@@ -407,11 +453,11 @@ function DippiesCard({
                 >
                   <path
                     d="M9 12.9525L13.635 15.75L12.405 10.4775L16.5 6.93L11.1075 6.4725L9 1.5L6.8925 6.4725L1.5 6.93L5.595 10.4775L4.365 15.75L9 12.9525Z"
-                    fill="url(#paint0_angular_1_3493)"
+                    fill={`url(#paint0_angular_1_3493${card_counter})`}
                   />
                   <defs>
                     <radialGradient
-                      id="paint0_angular_1_3493"
+                      id={`paint0_angular_1_3493${card_counter}`}
                       cx={0}
                       cy={0}
                       r={1}

@@ -18,10 +18,12 @@
   --text-2f: #00b2ff;
   --text-7f: #3b2b7f;
   --text-fa8: rgba(255, 255, 255, 0.8);
+  --text-f8: #A694F8;
 
   // family variable
   --family1: "Montserrat", sans-serif;
   --family2: "Poppins", sans-serif;
+  --mdb-breadcrumb-divider: '>'
 }
 .text_fa8 {
   color: var(--text-fa8);
