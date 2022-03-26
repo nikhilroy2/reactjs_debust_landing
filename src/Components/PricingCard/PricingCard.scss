@@ -1,0 +1,83 @@
+#PricingCard {
+  width: 37rem;
+  margin-bottom: 3.1rem;
+  margin-right: 3.1rem;
+  &:last-child {
+    margin-right: 0px;
+  }
+
+  * {
+    font-family: "DM Sans", sans-serif;
+  }
+  .card_header {
+    min-height: 31.1rem;
+    border: 0.2rem solid var(--text-white);
+    border-radius: 1rem;
+    padding: 4.1rem 5.5rem 4.3rem 5.8rem;
+    text-align: center;
+    margin-bottom: 3.84rem;
+    .card_plan {
+      font-size: 1.4rem;
+      margin-bottom: 2.91rem;
+      text-transform: uppercase;
+    }
+    .plan_pricing {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 2.9rem;
+      .price_count {
+        font-size: 5.8rem;
+        margin-right: 2.8rem;
+        position: relative;
+        &::before {
+          content: "$";
+          font-size: 1.6rem;
+          position: absolute;
+          top: 15%;
+          left: -40%;
+        }
+      }
+    }
+    .plan_desc {
+      font-size: 1.6rem;
+      color: rgba(255, 255, 255, 0.4);
+    }
+  }
+  .card_body {
+    .price_list_wrapper {
+      max-width: 25.5rem;
+      margin-left: auto;
+      margin-right: auto;
+      li {
+        font-size: 1.8rem;
+        margin-bottom: 0.9rem;
+        letter-spacing: 0px;
+        &:last-child {
+          margin-bottom: 0px;
+        }
+        svg {
+          margin-right: 1.8rem;
+          opacity: 0;
+          pointer-events: none;
+        }
+        .active_list {
+          color: rgba(255, 255, 255, 0.4);
+          svg {
+            opacity: 1;
+            pointer-events: visible;
+          }
+        }
+      }
+    }
+  }
+
+  &.price_active {
+    .card_header {
+      background: var(--text-ae) !important;
+    }
+    .plan_desc {
+      color: var(--text-white);
+    }
+  }
+}

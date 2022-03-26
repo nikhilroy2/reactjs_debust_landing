@@ -280,7 +280,7 @@ const Section1 = () => {
               </div>
 
               <div
-                className="tab-pane fade"
+                className="tab-pane fade show active"
                 id="ex1-tabs-3"
                 role="tabpanel"
                 aria-labelledby="ex1-tab-3"

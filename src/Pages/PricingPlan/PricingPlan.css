@@ -1,0 +1,13 @@
+#PricingPlan #Section1 {
+  padding-top: 30rem;
+  min-height: 150rem;
+  background: url("../../Static/img/bg_section_s.png") center/cover no-repeat fixed;
+}
+
+@media (max-width: 1199px) {
+  #PricingPlan #Section1 {
+    padding-top: 12rem;
+    padding-bottom: 3rem;
+  }
+}
+/*# sourceMappingURL=PricingPlan.css.map */
