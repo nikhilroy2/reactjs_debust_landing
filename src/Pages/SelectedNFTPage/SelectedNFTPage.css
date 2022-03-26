@@ -1,0 +1,136 @@
+#SelectedNFTPage #Section1 {
+  padding-top: 20rem;
+  min-height: 150rem;
+  background: url("../../Static/img/bg_section_s.png") center/cover no-repeat fixed;
+}
+
+@media (max-width: 1199px) {
+  #SelectedNFTPage #Section1 {
+    padding-top: 12rem;
+    padding-bottom: 3rem;
+  }
+}
+
+#SelectedNFTPage #Section1 .breadcrumb {
+  margin-bottom: 5.2rem;
+}
+
+@media (max-width: 767px) {
+  #SelectedNFTPage #Section1 .breadcrumb {
+    margin-bottom: 3rem;
+  }
+}
+
+#SelectedNFTPage #Section1 .breadcrumb a,
+#SelectedNFTPage #Section1 .breadcrumb li {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 2.4rem;
+}
+
+@media (max-width: 767px) {
+  #SelectedNFTPage #Section1 .breadcrumb a,
+  #SelectedNFTPage #Section1 .breadcrumb li {
+    font-size: 1.7rem;
+  }
+}
+
+#SelectedNFTPage #Section1 .breadcrumb li.active {
+  color: var(--text-white);
+  font-weight: bold;
+}
+
+#SelectedNFTPage #Section1 .breadcrumb .breadcrumb-item:before {
+  color: var(--text-white);
+}
+
+#SelectedNFTPage #Section1 .nft_section_body .flex_img_box {
+  min-width: 32.3rem;
+  height: 29.5rem;
+  border-radius: 5px;
+  margin-right: 3.2rem;
+}
+
+#SelectedNFTPage #Section1 .nft_section_body .flex_img_box img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#SelectedNFTPage #Section1 .flex_content_box .user_icon {
+  width: 7.4rem;
+  height: 7.4rem;
+  margin-right: 2.9rem;
+}
+
+#SelectedNFTPage #Section1 .flex_content_box .user_content_box {
+  font-size: 1.4rem;
+}
+
+#SelectedNFTPage #Section1 .flex_content_box .user_content_box h4 {
+  font-size: 1.8rem;
+}
+
+#SelectedNFTPage #Section1 .flex_content_box .user_content_box a {
+  color: var(--text-2f);
+}
+
+#SelectedNFTPage #Section1 .flex_content_box .nft_rating_wrapper .overlay_list li:first-child {
+  margin-right: 1.9rem;
+}
+
+#SelectedNFTPage #Section1 .flex_content_box .nft_rating_wrapper .overlay_list li:first-child img {
+  width: 4.2rem;
+  height: 5rem;
+}
+
+#SelectedNFTPage #Section1 .flex_content_box .nft_rating_wrapper .overlay_list li:not(:first-child) {
+  margin-right: 1.6rem;
+}
+
+#SelectedNFTPage #Section1 .flex_content_box .nft_rating_wrapper .overlay_list li:not(:first-child):last-child {
+  margin-right: 0px;
+}
+
+#SelectedNFTPage #Section1 .flex_content_box .nft_rating_wrapper .overlay_list li:not(:first-child) img {
+  width: 4.2rem;
+  height: 5rem;
+  -o-object-position: center top;
+     object-position: center top;
+}
+
+#SelectedNFTPage #Section1 .flex_content_box .nft_rating_wrapper .overlay_list .card_footer_overlay {
+  margin-top: 1.5rem;
+  font-size: 1.4rem;
+  letter-spacing: 4%;
+  line-height: 1.8rem;
+}
+
+#SelectedNFTPage #Section1 .flex_content_box .nft_rating_wrapper .overlay_list .card_footer_overlay p {
+  font-size: 1.4rem;
+}
+
+#SelectedNFTPage #Section1 .nft_desc {
+  font-size: 2.4rem;
+  margin-top: 5rem;
+  margin-bottom: 6rem;
+}
+
+#SelectedNFTPage #Section1 .nft_foot_content {
+  font-size: 1.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#SelectedNFTPage #Section1 .nft_foot_content > span {
+  color: var(--text-c0);
+  display: inline-block;
+  margin-right: 4.8rem;
+  font-weight: bold;
+}
+
+#SelectedNFTPage #Section1 .nft_foot_content .rating_count {
+  color: var(--text-17);
+}
+/*# sourceMappingURL=SelectedNFTPage.css.map */

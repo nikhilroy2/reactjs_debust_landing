@@ -23,6 +23,8 @@
       }
       li.active {
         color: var(--text-white);
+        font-weight: bold;
+
       }
       .breadcrumb-item:before {
         color: var(--text-white);
@@ -57,19 +59,19 @@
     }
 
     .pagination_wrapper {
-        padding-top: 4.6rem;
-        padding-bottom: 8.9rem;
+      padding-top: 4.6rem;
+      padding-bottom: 8.9rem;
       a {
         font-size: 2rem !important;
         color: var(--text-white);
-        @media (max-width: 767px){
-            font-size: 1.6rem!important;
-            padding: .4rem;
+        @media (max-width: 767px) {
+          font-size: 1.6rem !important;
+          padding: 0.4rem;
         }
         &.active,
         &:hover {
           &:not(.page_next) {
-              color: var(--text-f8);
+            color: var(--text-f8);
           }
           background: transparent;
         }

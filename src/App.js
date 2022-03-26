@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import DebustLanding from "./Pages/DebustLanding/DebustLanding";
 import SearchPage from "./Pages/SearchPage/SearchPage";
 import PricingPlan from "./Pages/PricingPlan/PricingPlan";
-
+import SelectedNFTPage from "./Pages/SelectedNFTPage/SelectedNFTPage";
 function App() {
   return (
     <BrowserRouter>
@@ -15,6 +15,7 @@ function App() {
             <Route path="/" element={<DebustLanding />} />
             <Route path="/search_page" element={<SearchPage />} />
             <Route path="/pricing_page" element={<PricingPlan />} />
+            <Route path="/selected_nft" element={<SelectedNFTPage />} />
           </Routes>
         </Base>
       </div>

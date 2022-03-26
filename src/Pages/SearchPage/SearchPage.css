@@ -36,6 +36,7 @@
 
 #SearchPage #Section1 .breadcrumb li.active {
   color: var(--text-white);
+  font-weight: bold;
 }
 
 #SearchPage #Section1 .breadcrumb .breadcrumb-item:before {
@@ -82,7 +83,7 @@
 @media (max-width: 767px) {
   #SearchPage #Section1 .pagination_wrapper a {
     font-size: 1.6rem !important;
-    padding: .4rem;
+    padding: 0.4rem;
   }
 }
 
