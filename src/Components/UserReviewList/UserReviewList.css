@@ -8,4 +8,101 @@
   width: 100%;
   height: 100%;
 }
+
+#UserReviewList .review_list_wrapper .list_header .user_info_box .user_name {
+  font-size: 3rem;
+}
+
+#UserReviewList .review_list_wrapper .list_header .user_info_box .user_rating {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+#UserReviewList .review_list_wrapper .list_header .user_info_box .user_rating ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#UserReviewList .review_list_wrapper .list_header .user_info_box .user_rating ul .rating_box {
+  width: 4.5rem;
+  height: 4.5rem;
+  background: var(--text-96);
+  border-radius: 0.5rem;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 1rem;
+}
+
+#UserReviewList .review_list_wrapper .list_header .user_info_box .user_rating ul li:last-child .rating_box {
+  margin-right: 0px;
+}
+
+#UserReviewList .review_list_wrapper .list_header .user_info_box .review_span {
+  margin-top: 2.2rem;
+  display: inline-block;
+  margin-right: 2.4rem;
+}
+
+#UserReviewList .review_list_wrapper .list_header .user_info_box .review_span svg {
+  margin-right: 3rem;
+}
+
+#UserReviewList .review_list_wrapper .list_header .user_info_box .user_location svg {
+  margin-right: 0.9rem;
+}
+
+#UserReviewList .review_list_wrapper .list_body .review_title {
+  font-size: 3rem;
+  padding-top: 5.1rem;
+  padding-bottom: 4rem;
+}
+
+#UserReviewList .review_list_wrapper .list_body p {
+  font-size: 2.4rem;
+  padding-bottom: 5.2rem;
+}
+
+#UserReviewList .review_list_wrapper .list_footer .footer_action {
+  padding-bottom: 8.8rem;
+}
+
+#UserReviewList .review_list_wrapper .list_footer button {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--text-white);
+  font-size: 2rem;
+}
+
+#UserReviewList .review_list_wrapper .list_footer button svg {
+  margin-right: 1rem;
+}
+
+#UserReviewList .load_more_action {
+  padding-bottom: 14.1rem;
+}
+
+#UserReviewList .load_more_action button {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--text-white);
+  font-size: 2rem;
+}
+
+#UserReviewList .load_more_action button svg {
+  margin-right: 1rem;
+}
 /*# sourceMappingURL=UserReviewList.css.map */

@@ -1,15 +1,97 @@
 #UserReviewList {
   .review_list_wrapper {
     .list_header {
-        .user_box{
-            width: 9.2rem;
-            height: 9.2rem;
-            margin-right: 3.2rem;
-            img{
-                width: 100%;
-                height: 100%;
-            }
+      .user_box {
+        width: 9.2rem;
+        height: 9.2rem;
+        margin-right: 3.2rem;
+        img {
+          width: 100%;
+          height: 100%;
         }
+      }
+      .user_info_box {
+        .user_name {
+          font-size: 3rem;
+        }
+        .user_rating {
+          flex-grow: 1;
+          ul {
+            display: flex;
+            justify-content: flex-end;
+            .rating_box {
+              width: 4.5rem;
+              height: 4.5rem;
+              background: var(--text-96);
+              border-radius: 0.5rem;
+              display: inline-flex;
+              justify-content: center;
+              align-items: center;
+              margin-right: 1rem;
+            }
+            li:last-child {
+              .rating_box {
+                margin-right: 0px;
+              }
+            }
+          }
+        }
+        .review_span {
+          margin-top: 2.2rem;
+          display: inline-block;
+          svg {
+            margin-right: 3rem;
+          }
+          margin-right: 2.4rem;
+        }
+        .user_location {
+          svg {
+            margin-right: 0.9rem;
+          }
+        }
+      }
+    }
+
+    .list_body {
+      .review_title {
+        font-size: 3rem;
+        padding-top: 5.1rem;
+        padding-bottom: 4rem;
+      }
+      p {
+        font-size: 2.4rem;
+        padding-bottom: 5.2rem;
+      }
+    }
+    .list_footer {
+      .footer_action {
+        padding-bottom: 8.8rem;
+      }
+
+      button {
+        background: transparent;
+        border: none;
+        outline: none;
+        color: var(--text-white);
+        font-size: 2rem;
+        svg {
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+
+  .load_more_action {
+    padding-bottom: 14.1rem;
+    button {
+      background: transparent;
+      border: none;
+      outline: none;
+      color: var(--text-white);
+      font-size: 2rem;
+      svg {
+        margin-right: 1rem;
+      }
     }
   }
 }

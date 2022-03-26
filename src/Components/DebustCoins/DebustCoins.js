@@ -1,6 +1,6 @@
 import React from "react";
-import './DebustCoins.css'
-function DebustCoins({card_object}) {
+import "./DebustCoins.css";
+function DebustCoins({ card_object, list_card }) {
   return (
     <div id="DebustCoins">
       <div className="section_container">
@@ -15,14 +15,19 @@ function DebustCoins({card_object}) {
             {card_object.map((v) => {
               return (
                 <div className="col-md-6" key={v.id}>
-                  <div className="col_wrapper d-flex align-items-center">
-                    <img
-                      className={v.className + " cardImg"}
-                      src={v.img}
-                      alt="img"
-                    />
+                  <div className={`col_wrapper d-flex {${!list_card&&'align-items-center'}}`}>
+                    {v.isList ? (
+                      <span className="card_list_number">{v.id}</span>
+                    ) : (
+                      <img
+                        className={v.className + " cardImg"}
+                        src={v.img}
+                        alt="img"
+                      />
+                    )}
+
                     <p
-                      className="font_36 res_font"
+                      className="font_36 res_font text_fa8"
                       style={{ lineHeight: "5rem" }}
                     >
                       {v.description}

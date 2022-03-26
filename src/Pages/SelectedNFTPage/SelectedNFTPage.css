@@ -133,4 +133,8 @@
 #SelectedNFTPage #Section1 .nft_foot_content .rating_count {
   color: var(--text-17);
 }
+
+#SelectedNFTPage #Section1 .BrowseByCategoryWrapper {
+  padding-bottom: 15.3rem;
+}
 /*# sourceMappingURL=SelectedNFTPage.css.map */
