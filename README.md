@@ -12,4 +12,7 @@
     <li>
         <a href="https://reactjs-debust-landing.netlify.app/search_page">https://reactjs-debust-landing.netlify.app/search_page</a>
     </li>
+    <li>
+        <a href="https://reactjs-debust-landing.netlify.app/selected_nft">https://reactjs-debust-landing.netlify.app/selected_nft</a>
+    </li>
 </ol>
