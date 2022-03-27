@@ -18,8 +18,6 @@ function App() {
             <Route path="/pricing_page" element={<PricingPlan />} />
             <Route path="/selected_nft" element={<SelectedNFTPage />} />
           </Routes>
-
-
           {/* Login Modal Component */}
           <LoginModal></LoginModal>
         </Base>

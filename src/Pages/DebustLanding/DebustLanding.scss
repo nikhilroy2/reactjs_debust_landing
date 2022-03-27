@@ -40,7 +40,7 @@
     min-height: 108rem;
     background: url("../../Static/img/section_bg3.png") center/cover no-repeat;
     padding-top: 6.6rem;
-    @media (max-width: 600px){
+    @media (max-width: 600px) {
       padding-top: 3rem;
     }
   }
@@ -50,6 +50,9 @@
     padding-bottom: 20rem;
     .card_section_body {
       padding: 5.5rem 4.5rem;
+      @media (max-width: 767px) {
+        padding: 2.5rem;
+      }
       background: linear-gradient(
         108.88deg,
         rgba(122, 106, 190, 0.65) 41.79%,

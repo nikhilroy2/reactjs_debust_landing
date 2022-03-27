@@ -89,6 +89,20 @@
         }
       }
     }
+
+
+    .card_section_body {
+      padding: 5.5rem 4.5rem;
+      @media (max-width: 767px) {
+        padding: 2.5rem;
+      }
+      background: linear-gradient(
+        108.88deg,
+        rgba(122, 106, 190, 0.65) 41.79%,
+        rgba(31, 18, 87, 0.4225) 86.24%
+      );
+      border-radius: 1.2rem;
+    }
     .nft_desc {
       font-size: 2.4rem;
       margin-top: 5rem;

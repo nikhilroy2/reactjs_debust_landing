@@ -530,7 +530,7 @@ const Section4 = () => {
           <div className="row g-5">
             {card_object.map((v) => {
               return (
-                <div key={v.id} className="col-md-6 col-lg-4">
+                <div key={v.id} className="col-md-6  col-xxl-4">
                   <div className="col_wrapper">
                     <NftProjectCard
                       card_lg_img={v.card_lg_img}
