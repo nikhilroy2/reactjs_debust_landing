@@ -63,6 +63,10 @@
     .hiw_section {
       padding-top: 15.9rem;
       padding-bottom: 10.8rem;
+      @media (max-width: 1400px){
+        padding-top: 6rem;
+        padding-bottom: 7rem;
+      }
     }
   }
 

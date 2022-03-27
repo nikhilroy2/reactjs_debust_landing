@@ -558,8 +558,8 @@ const Section4 = () => {
       </div>
       <div className="section_container lg_container">
         <div className="section_body">
-          <div className="row">
-            <div className="col d-flex justify-content-center">
+          <div className="row justify-content-center">
+            <div className="col-11 col-lg-5 col-xxl-4 d-flex justify-content-center ">
               <HowItWorkCard
                 leftIcon={true}
                 cardClass="firstCard"
@@ -568,7 +568,7 @@ const Section4 = () => {
                 cardDescription="Connect your wallet to get started"
               ></HowItWorkCard>
             </div>
-            <div className="col d-flex justify-content-center">
+            <div className="col-11 col-lg-5 col-xxl-4 d-flex justify-content-center ">
               <HowItWorkCard
                 leftIcon={true}
                 cardClass="secondCard"
@@ -577,7 +577,7 @@ const Section4 = () => {
                 cardDescription="Then publish your review of the service"
               ></HowItWorkCard>
             </div>
-            <div className="col d-flex justify-content-center">
+            <div className="col-11 col-lg-5 col-xxl-4 d-flex justify-content-center ">
               <HowItWorkCard
                 cardClass="thirdClass"
                 cardLogo={require("../../Static/img/Earn_Rewards.png")}
