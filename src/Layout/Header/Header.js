@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
+import LoginModal from "../../Components/LoginModal/LoginModal";
 function Header(props) {
   const [scrollClass, setScrollClass] = useState("");
   const [toggle, setToggle] = useState(false);
@@ -82,7 +83,7 @@ function Header(props) {
 
                         <input
                           type="search"
-                          className="form-control rounded"
+                          className="form-control rounded font_14"
                           placeholder="Search NFT Projects & Collections"
                           aria-label="Search"
                           aria-describedby="search-addon"
@@ -92,13 +93,17 @@ function Header(props) {
                   </li>
 
                   <li className="nav-item mt-3 mt-lg-0">
-                    <a href="#" className="nav-link btn_log mr_15">
+                    <button
+                      className="nav-link btn_log mr_15 btn_log_modal"
+                      data-mdb-toggle="modal"
+                      data-mdb-target="#loginModal"
+                    >
                       Log In
-                    </a>
+                    </button>
                   </li>
 
                   <li className="nav-item mt-3 mt-lg-0">
-                    <a href="#" className="nav-link btn_creator">
+                    <a href="#" className="nav-link btn_creator font_14">
                       For Creators
                     </a>
                   </li>
@@ -108,6 +113,7 @@ function Header(props) {
           </div>
         </nav>
       </div>
+      
     </header>
   );
 }

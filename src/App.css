@@ -198,6 +198,12 @@ h5.mb_head {
   }
 }
 
+.btn_log.btn_log_modal {
+  font-size: 1.4rem !important;
+  border: none;
+  outline: none;
+}
+
 .btn_log.mr_15 {
   margin-right: 1.5rem;
 }
@@ -323,6 +329,10 @@ h5.mb_head {
     font-size: 1.8rem !important;
     line-height: 2.5rem !important;
   }
+}
+
+.font_14 {
+  font-size: 1.4rem !important;
 }
 
 .object_cover {

@@ -6,6 +6,7 @@ import DebustLanding from "./Pages/DebustLanding/DebustLanding";
 import SearchPage from "./Pages/SearchPage/SearchPage";
 import PricingPlan from "./Pages/PricingPlan/PricingPlan";
 import SelectedNFTPage from "./Pages/SelectedNFTPage/SelectedNFTPage";
+import LoginModal from "./Components/LoginModal/LoginModal";
 function App() {
   return (
     <BrowserRouter>
@@ -17,6 +18,10 @@ function App() {
             <Route path="/pricing_page" element={<PricingPlan />} />
             <Route path="/selected_nft" element={<SelectedNFTPage />} />
           </Routes>
+
+
+          {/* Login Modal Component */}
+          <LoginModal></LoginModal>
         </Base>
       </div>
     </BrowserRouter>

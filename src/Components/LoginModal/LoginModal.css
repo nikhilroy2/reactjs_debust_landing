@@ -1,0 +1,83 @@
+#LoginModal .modal-dialog {
+  max-width: 64.2rem !important;
+  width: 64.2rem !important;
+}
+
+#LoginModal .modal-dialog .modal-content {
+  background: rgba(166, 159, 250, 0.3);
+  -webkit-backdrop-filter: blur(30px);
+          backdrop-filter: blur(30px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 2rem;
+  min-height: 72.7rem;
+}
+
+#LoginModal .modal-dialog .modal-header {
+  text-align: center;
+  border-bottom: none;
+}
+
+#LoginModal .modal-dialog .modal-header .modal-title {
+  font-size: 3rem;
+  color: var(--text-white);
+  font-weight: bold;
+  margin-bottom: 1rem;
+  margin-top: 3.7rem;
+}
+
+#LoginModal .modal-dialog .modal-header .modal-desc {
+  font-size: 1.8rem;
+}
+
+#LoginModal .modal-dialog .modal-body {
+  padding-bottom: 13.4rem;
+}
+
+#LoginModal .modal-dialog .modal-body .action_link_list li {
+  margin-bottom: 0.9rem;
+}
+
+#LoginModal .modal-dialog .modal-body .action_link_list li a {
+  background: rgba(148, 139, 255, 0.3);
+  -webkit-backdrop-filter: blur(30px);
+          backdrop-filter: blur(30px);
+  /* Note: backdrop-filter has minimal browser support */
+  display: block;
+  border-radius: 5px;
+  color: var(--text-white);
+  padding: 0.8rem 5.1rem;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+#LoginModal .modal-dialog .modal-body .action_link_list li a svg {
+  margin-right: 2.5rem;
+}
+
+#LoginModal .modal-dialog .modal-body .action_link_list li a .semibox {
+  font-size: 1.6rem;
+  font-weight: normal;
+}
+
+#LoginModal .modal-dialog .modal-footer {
+  border-top: none;
+  background: rgba(148, 139, 255, 0.3);
+  -webkit-backdrop-filter: blur(30px);
+          backdrop-filter: blur(30px);
+  border-radius: 5px;
+  padding: 3rem;
+  font-size: 2.4rem;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#LoginModal .modal-dialog .modal-footer button {
+  border: none;
+  outline: none;
+  color: var(--text-white);
+  background: transparent;
+  font-weight: bold;
+}
+/*# sourceMappingURL=LoginModal.css.map */
