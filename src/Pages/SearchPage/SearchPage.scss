@@ -24,7 +24,6 @@
       li.active {
         color: var(--text-white);
         font-weight: bold;
-
       }
       .breadcrumb-item:before {
         color: var(--text-white);
@@ -45,6 +44,12 @@
           border: none;
           text-transform: capitalize;
           margin-right: 1.5rem;
+          @media (max-width: 767px) {
+            font-size: 1.6rem;
+          }
+          @media (max-width: 500px) {
+            font-size: 1.2rem;
+          }
           &.active,
           &:hover {
             background: linear-gradient(

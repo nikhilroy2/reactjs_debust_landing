@@ -90,7 +90,7 @@ const Section1 = () => {
           <div>
             {/* Tabs navs */}
             <ul className="nav nav-tabs mb-3" id="ex1" role="tablist">
-              <li className="nav-item" role="presentation">
+              <li className="nav-item mb-2 " role="presentation">
                 <a
                   className="nav-link"
                   id="ex1-tab-1"
@@ -103,7 +103,7 @@ const Section1 = () => {
                   Arts
                 </a>
               </li>
-              <li className="nav-item" role="presentation">
+              <li className="nav-item mb-2 " role="presentation">
                 <a
                   className="nav-link"
                   id="ex1-tab-2"
@@ -116,7 +116,7 @@ const Section1 = () => {
                   Top
                 </a>
               </li>
-              <li className="nav-item" role="presentation">
+              <li className="nav-item mb-2 " role="presentation">
                 <a
                   className="nav-link active"
                   id="ex1-tab-3"
@@ -129,7 +129,7 @@ const Section1 = () => {
                   Photography
                 </a>
               </li>
-              <li className="nav-item" role="presentation">
+              <li className="nav-item mb-2 " role="presentation">
                 <a
                   className="nav-link"
                   id="ex1-tab-4"
@@ -143,7 +143,7 @@ const Section1 = () => {
                 </a>
               </li>
 
-              <li className="nav-item" role="presentation">
+              <li className="nav-item mb-2 " role="presentation">
                 <a
                   className="nav-link"
                   id="ex1-tab-5"
@@ -157,7 +157,7 @@ const Section1 = () => {
                 </a>
               </li>
 
-              <li className="nav-item" role="presentation">
+              <li className="nav-item mb-2 " role="presentation">
                 <a
                   className="nav-link"
                   id="ex1-tab-6"
@@ -171,7 +171,7 @@ const Section1 = () => {
                 </a>
               </li>
 
-              <li className="nav-item" role="presentation">
+              <li className="nav-item mb-2 " role="presentation">
                 <a
                   className="nav-link"
                   id="ex1-tab-7"
@@ -185,7 +185,7 @@ const Section1 = () => {
                 </a>
               </li>
 
-              <li className="nav-item" role="presentation">
+              <li className="nav-item mb-2 " role="presentation">
                 <a
                   className="nav-link"
                   id="ex1-tab-8"
@@ -199,7 +199,7 @@ const Section1 = () => {
                 </a>
               </li>
 
-              <li className="nav-item" role="presentation">
+              <li className="nav-item mb-2 " role="presentation">
                 <a
                   className="nav-link"
                   id="ex1-tab-9"
@@ -213,7 +213,7 @@ const Section1 = () => {
                 </a>
               </li>
 
-              <li className="nav-item" role="presentation">
+              <li className="nav-item mb-2 " role="presentation">
                 <a
                   className="nav-link"
                   id="ex1-tab-10"
