@@ -35,15 +35,15 @@ const Section1 = () => {
         </nav>
 
         <div className="section_body nft_section_body">
-          <div className="d-flex align-items-center">
-            <div className="flex_box flex_img_box">
+          <div className="d-flex align-items-center flex-wrap flex-lg-nowrap">
+            <div className="flex_box flex_img_box mb-3 mb-lg-0">
               <img
                 src={require("../../Static/img/nft_img.png")}
                 alt="nft_img.png"
               />
             </div>
             <div className="flex_box flex_content_box flex-grow-1">
-              <div className="d-flex align-items-center ">
+              <div className="d-flex align-items-center flex-wrap flex-sm-nowrap ">
                 <div className="box">
                   <img
                     src={require("../../Static/img/card_icon.png")}
@@ -68,7 +68,7 @@ const Section1 = () => {
                   </svg>
                 </div>
 
-                <div className="nft_rating_wrapper ms-auto">
+                <div className="nft_rating_wrapper ms-sm-auto mt-3 mt-sm-0">
                   <ul className="list-unstyled d-flex overlay_list">
                     <li>
                       <img
@@ -257,7 +257,7 @@ const Section1 = () => {
                 that are building the new free world of dream
               </p>
 
-              <div className="nft_foot_content">
+              <div className="nft_foot_content flex-wrap d-flex">
                 <span>Photography</span>
                 <div className="recent_review">
                   <span className="rating_count">4.8</span> Recent Reviews (18)

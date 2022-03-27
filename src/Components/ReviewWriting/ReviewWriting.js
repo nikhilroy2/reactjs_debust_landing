@@ -25,8 +25,8 @@ function ReviewWriting(props) {
   return (
     <div id="ReviewWriting">
       <form action="#" id="review_writing_form">
-        <div className="form_group">
-          <div className="input_wrapper flex-grow-1 position-relative">
+        <div className="form_group flex-wrap flex-md-nowrap">
+          <div className="input_wrapper flex-grow-1 position-relative mb-3 mb-md-0">
             <input
               type="text"
               placeholder="Write a review"
@@ -48,8 +48,8 @@ function ReviewWriting(props) {
             </button>
           </div>
 
-          <div className="star_action_wrapper">
-            <button onClick={event=> ratingClickHandle(event, 1)} onMouseOut={(event)=> ratingOutHandle(event)} onMouseOver={(event)=> ratingOverHandle(event, 1)} className="star_btn">
+          <div className="star_action_wrapper flex-grow-1 flex-md-grow-0">
+            <button type="button" onClick={event=> ratingClickHandle(event, 1)} onMouseOut={(event)=> ratingOutHandle(event)} onMouseOver={(event)=> ratingOverHandle(event, 1)} className="star_btn">
               <svg
                 width={45}
                 height={45}
@@ -98,7 +98,7 @@ function ReviewWriting(props) {
                 </defs>
               </svg>
             </button>
-            <button onClick={event=> ratingClickHandle(event, 2)} onMouseOut={(event)=> ratingOutHandle(event)} onMouseOver={(event)=> ratingOverHandle(event, 2)} className="star_btn">
+            <button type="button" onClick={event=> ratingClickHandle(event, 2)} onMouseOut={(event)=> ratingOutHandle(event)} onMouseOver={(event)=> ratingOverHandle(event, 2)} className="star_btn">
               <svg
                 width={45}
                 height={45}
@@ -147,7 +147,7 @@ function ReviewWriting(props) {
                 </defs>
               </svg>
             </button>
-            <button onClick={event=> ratingClickHandle(event, 3)} onMouseOut={(event)=> ratingOutHandle(event)} onMouseOver={(event)=> ratingOverHandle(event, 3)} className="star_btn">
+            <button type="button" onClick={event=> ratingClickHandle(event, 3)} onMouseOut={(event)=> ratingOutHandle(event)} onMouseOver={(event)=> ratingOverHandle(event, 3)} className="star_btn">
               <svg
                 width={45}
                 height={45}
@@ -196,7 +196,7 @@ function ReviewWriting(props) {
                 </defs>
               </svg>
             </button>
-            <button onClick={event=> ratingClickHandle(event, 4)} onMouseOut={(event)=> ratingOutHandle(event)} onMouseOver={(event)=> ratingOverHandle(event, 4)} className="star_btn">
+            <button type="button" onClick={event=> ratingClickHandle(event, 4)} onMouseOut={(event)=> ratingOutHandle(event)} onMouseOver={(event)=> ratingOverHandle(event, 4)} className="star_btn">
               <svg
                 width={45}
                 height={45}
@@ -246,7 +246,7 @@ function ReviewWriting(props) {
               </svg>
             </button>
 
-            <button onClick={event=> ratingClickHandle(event, 5)} onMouseOut={(event)=> ratingOutHandle(event)} onMouseOver={(event)=> ratingOverHandle(event, 5)} className="star_btn">
+            <button type="button" onClick={event=> ratingClickHandle(event, 5)} onMouseOut={(event)=> ratingOutHandle(event)} onMouseOver={(event)=> ratingOverHandle(event, 5)} className="star_btn">
               <svg
                 width={45}
                 height={45}
