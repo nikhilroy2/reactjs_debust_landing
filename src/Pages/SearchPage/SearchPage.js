@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import DippiesCard from "../../Components/DippiesCard/DippiesCard";
 import { Section5 as DebustCoins } from "../DebustLanding/DebustLanding";
 function SearchPage(props) {
+  window.document.title = "Search Page";
+
   return (
     <div id="SearchPage">
       <Section1></Section1>

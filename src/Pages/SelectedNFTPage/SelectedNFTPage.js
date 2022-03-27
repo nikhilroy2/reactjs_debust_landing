@@ -7,6 +7,8 @@ import DebustCoins from "../../Components/DebustCoins/DebustCoins";
 import { Link } from "react-router-dom";
 import "./SelectedNFTPage.css";
 function SelectedNFTPage(props) {
+  window.document.title = "Selected NFT Page";
+
   return (
     <div id="SelectedNFTPage">
       <Section1></Section1>

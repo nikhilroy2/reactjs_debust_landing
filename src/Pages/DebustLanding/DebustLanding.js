@@ -6,6 +6,7 @@ import CustomerReviewCard from "../../Components/CustomerReviewCard/CustomerRevi
 import NftProjectCard from "../../Components/NftProjectCard/NftProjectCard";
 import HowItWorkCard from "../../Components/HowItWorkCard/HowItWorkCard";
 function DebustLanding(props) {
+  window.document.title = 'Debust Landing Page'
   return (
     <div id="DebustLanding">
       <Section1></Section1>
