@@ -40,6 +40,9 @@
     min-height: 108rem;
     background: url("../../Static/img/section_bg3.png") center/cover no-repeat;
     padding-top: 6.6rem;
+    @media (max-width: 600px){
+      padding-top: 3rem;
+    }
   }
   #Section4 {
     background: url("../../Static/img/section_bg4.png") center/cover no-repeat;

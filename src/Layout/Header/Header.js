@@ -103,7 +103,12 @@ function Header(props) {
                   </li>
 
                   <li className="nav-item mt-3 mt-lg-0">
-                    <a href="#" className="nav-link btn_creator font_14">
+                    <a
+                      href="#"
+                      className="nav-link btn_creator font_14"
+                      data-mdb-toggle="modal"
+                      data-mdb-target="#loginModal"
+                    >
                       For Creators
                     </a>
                   </li>
@@ -113,7 +118,6 @@ function Header(props) {
           </div>
         </nav>
       </div>
-      
     </header>
   );
 }

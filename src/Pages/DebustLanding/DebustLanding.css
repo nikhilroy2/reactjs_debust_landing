@@ -47,6 +47,12 @@
   padding-top: 6.6rem;
 }
 
+@media (max-width: 600px) {
+  #DebustLanding #Section3 {
+    padding-top: 3rem;
+  }
+}
+
 #DebustLanding #Section4 {
   background: url("../../Static/img/section_bg4.png") center/cover no-repeat;
   padding-top: 6.6rem;

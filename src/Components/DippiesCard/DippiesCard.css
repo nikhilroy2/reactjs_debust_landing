@@ -74,7 +74,7 @@
 
 #DippiesCard .card_overlay_box {
   width: 43.9rem;
-  height: 20.9rem;
+  min-height: 20.9rem;
   position: absolute;
   bottom: calc(100% - 6rem);
   left: -13.4rem;
@@ -97,6 +97,7 @@
 @media (max-width: 991px) {
   #DippiesCard .card_overlay_box {
     position: static;
+    width: 100%;
   }
 }
 
