@@ -4,6 +4,13 @@
   background: conic-gradient(from 211.18deg at 59.01% -160.39%, #8b74ee 0deg, #6555ab 175.08deg, #6651c4 191.25deg, #8b74ee 360deg);
 }
 
+@media (max-width: 767px) {
+  #Footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+
 #Footer .footer_row {
   padding-bottom: 2.7rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
@@ -11,6 +18,7 @@
 
 #Footer .footer_row li a {
   font-size: 1.5rem;
+  padding-left: .3rem;
   color: var(--text-white);
 }
 

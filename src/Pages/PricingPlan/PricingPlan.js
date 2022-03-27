@@ -2,6 +2,7 @@ import React from "react";
 import "./PricingPlan.css";
 import PricingCard from "../../Components/PricingCard/PricingCard";
 function PricingPlan(props) {
+  window.document.title = 'Pricing Plan'
   return (
     <div id="PricingPlan">
       <Section1></Section1>

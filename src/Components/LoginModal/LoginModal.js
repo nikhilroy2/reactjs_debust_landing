@@ -146,7 +146,7 @@ function LoginModal(props) {
       >
         <div className="modal-dialog modal-dialog-centered">
           <div className="modal-content">
-            <div className="modal-header">
+            <div className="modal-header justify-content-center">
               <div className="row justify-content-center">
                 <div className="col-11 col-md-10 col-xl-9">
                   <div className="content_wrapper">

@@ -4,6 +4,13 @@
   margin-right: 3.1rem;
 }
 
+@media (max-width: 750px) {
+  #PricingCard {
+    margin-right: 0px;
+    margin-bottom: 2rem;
+  }
+}
+
 #PricingCard:last-child {
   margin-right: 0px;
 }

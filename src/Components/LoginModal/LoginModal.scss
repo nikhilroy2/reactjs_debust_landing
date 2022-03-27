@@ -2,12 +2,19 @@
   .modal-dialog {
     max-width: 64.2rem !important;
     width: 64.2rem !important;
+    @media (max-width: 700px) {
+      width: 100% !important;
+    }
     .modal-content {
       background: rgba(166, 159, 250, 0.3);
       backdrop-filter: blur(30px);
       /* Note: backdrop-filter has minimal browser support */
       border-radius: 2rem;
       min-height: 72.7rem;
+      @media (max-width: 700px) {
+        border-radius: 0px;
+        min-height: 40rem;
+      }
     }
     .modal-header {
       text-align: center;
@@ -18,9 +25,16 @@
         font-weight: bold;
         margin-bottom: 1rem;
         margin-top: 3.7rem;
+        @media (max-width: 700px) {
+          font-size: 2.4rem;
+          margin-top: 2rem;
+        }
       }
       .modal-desc {
         font-size: 1.8rem;
+        @media (max-width: 700px) {
+          font-size: 1.3rem;
+        }
       }
     }
     .modal-body {
@@ -38,8 +52,20 @@
             padding: 0.8rem 5.1rem;
             font-size: 2.4rem;
             font-weight: bold;
+            @media (max-width: 700px) {
+              font-size: 1.8rem;
+              padding: 0.4rem 2rem;
+            }
+            @media (max-width: 500px) {
+              font-size: 1.6rem;
+              padding: 0.2rem 1rem;
+            }
             svg {
               margin-right: 2.5rem;
+              @media (max-width: 700px) {
+                width: 4rem;
+                height: 4rem;
+              }
             }
             .semibox {
               font-size: 1.6rem;
@@ -58,6 +84,15 @@
       font-size: 2.4rem;
       text-align: center;
       justify-content: center;
+      @media (max-width: 700px) {
+        font-size: 1.8rem;
+        padding: 1.6rem;
+        border-radius: 0px !important;
+      }
+      @media (max-width: 500px) {
+        font-size: 1.5rem;
+        padding: 1.2rem;
+      }
       button {
         border: none;
         outline: none;

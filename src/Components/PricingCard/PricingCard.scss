@@ -2,6 +2,10 @@
   width: 37rem;
   margin-bottom: 3.1rem;
   margin-right: 3.1rem;
+  @media (max-width:750px){
+    margin-right: 0px;
+    margin-bottom: 2rem;
+  }
   &:last-child {
     margin-right: 0px;
   }

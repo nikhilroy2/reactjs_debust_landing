@@ -4,7 +4,7 @@ function Footer(props) {
   return (
     <footer id="Footer">
       <div className="section_container">
-        <div className="row gx-5 footer_row align-items-center">
+        <div className="row g-2 footer_row align-items-center">
           <div className="col-12 text-center d-xl-none mb-3">
             <h3>DEBUST</h3>
           </div>

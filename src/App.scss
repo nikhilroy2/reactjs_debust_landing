@@ -28,7 +28,7 @@
   --text-be: #644fbe;
   --text-87: #8764f1;
   --text-96: #493796;
-  --text-bc: #7258BC;
+  --text-bc: #7258bc;
   // family variable
   --family1: "Montserrat", sans-serif;
   --family2: "Poppins", sans-serif;
@@ -41,6 +41,32 @@ body {
   font-size: 16px;
   color: var(--text-white);
 }
+
+// .................For Custom Scrollbar....................
+
+/* width */
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(168, 168, 168, 0.725); 
+  // border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #A8A8A8; 
+}
+// .................For Custom Scrollbar....................End
+
 // .............................Global Settings Style..............End
 
 // ......................Heading ..................
@@ -111,6 +137,9 @@ h5 {
   }
   h2.title {
     font-size: 6rem;
+    @media (max-width: 991px) {
+      font-size: 4.5rem;
+    }
     @media (max-width: 767px) {
       font-size: 3rem;
     }
@@ -119,6 +148,15 @@ h5 {
     font-size: 2.4rem;
     color: rgba(255, 255, 255, 0.8);
     font-weight: normal;
+
+    @media (max-width: 991px) {
+      font-size: 2rem;
+    }
+    @media (max-width: 767px) {
+      font-size: 1.5rem;
+
+    }
+
     @media (max-width: 600px) {
       font-size: 1.7rem !important;
     }
