@@ -38,7 +38,7 @@
   height: 20.5rem;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   #DebustCoins .goldBricks_img {
     width: 12.5rem;
     height: 12.5rem;
@@ -57,7 +57,7 @@
   height: 16.9rem;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   #DebustCoins .Etherium_img {
     width: 10.5rem;
     height: 10.5rem;
@@ -76,7 +76,7 @@
   height: 19.8rem;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   #DebustCoins .Safe-3 {
     width: 11.5rem;
     height: 11.5rem;
@@ -95,7 +95,7 @@
   height: 18.1rem;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   #DebustCoins .People-3 {
     width: 9.5rem;
     height: 9.5rem;
@@ -113,7 +113,7 @@
   margin-right: 3.3rem;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   #DebustCoins .cardImg {
     margin-right: 1rem;
   }
