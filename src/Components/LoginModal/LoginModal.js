@@ -138,7 +138,7 @@ function LoginModal(props) {
     <div id="LoginModal">
       {/* Modal */}
       <div
-        className="modal fade"
+        className="modal fade login_modal_bg"
         id="loginModal"
         tabIndex={-1}
         aria-labelledby="exampleModalLabel"

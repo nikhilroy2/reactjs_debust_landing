@@ -1,4 +1,12 @@
 #LoginModal {
+  .login_modal_bg {
+    background: linear-gradient(
+      180deg,
+      rgba(143, 117, 255, 0.85) 0%,
+      rgba(25, 1, 132, 0.85) 100%
+    );
+    // filter: blur(20px);
+  }
   .modal-dialog {
     max-width: 64.2rem !important;
     width: 64.2rem !important;

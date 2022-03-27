@@ -1,3 +1,8 @@
+#LoginModal .login_modal_bg {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(143, 117, 255, 0.85)), to(rgba(25, 1, 132, 0.85)));
+  background: linear-gradient(180deg, rgba(143, 117, 255, 0.85) 0%, rgba(25, 1, 132, 0.85) 100%);
+}
+
 #LoginModal .modal-dialog {
   max-width: 64.2rem !important;
   width: 64.2rem !important;
