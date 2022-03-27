@@ -1,25 +1,59 @@
 #ContentProgress {
   margin-top: 10.1rem;
   margin-bottom: 15.1rem;
+  @media (max-width: 767px) {
+    margin-top: 5rem;
+    margin-bottom: 7rem;
+  }
+  @media (max-width: 400px) {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+  }
   .progress_list {
     li {
       margin-bottom: 1.8rem;
     }
     .progress_box {
       font-size: 2.4rem;
+      @media (max-width: 767px) {
+        font-size: 1.7rem;
+      }
+      @media (max-width: 400px) {
+        font-size: 1.4rem;
+      }
       svg {
         margin-right: 3.4rem;
+        @media (max-width: 767px) {
+          margin-right: 2rem;
+        }
+        @media (max-width: 400px) {
+          margin-right: 1rem;
+        }
       }
       .progress_name {
         margin-right: 2.7rem;
         min-width: 15.6rem;
         display: block;
+        @media (max-width: 767px) {
+          min-width: 10rem;
+        }
+        @media (max-width: 400px) {
+          min-width: 8rem;
+        }
       }
       .progress_bar {
         width: 100%;
         background: var(--text-be);
         height: 2.4rem;
         margin-right: 3.6rem;
+        @media (max-width: 767px) {
+          height: 1.8rem;
+          margin-right: 2rem;
+        }
+        @media (max-width: 400px) {
+          height: 1.2rem;
+          margin-right: 1rem;
+        }
         .total_progress {
           display: block;
           height: 100%;

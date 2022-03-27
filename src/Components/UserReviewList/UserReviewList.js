@@ -6,13 +6,13 @@ function UserReviewList(props) {
       <ul className="list-unstyled review_list_wrapper">
         <li>
           <div className="list_header">
-            <div className="d-flex">
-              <div className="box user_box">
+            <div className="d-flex flex-wrap flex-sm-nowrap ">
+              <div className="box user_box mb-3 mb-sm-0">
                 <img src={require("../../Static/img/user.png")} alt="user" />
               </div>
               <div className="box user_info_box flex-grow-1">
-                <div className="d-flex justify-content-between align-items-center">
-                  <h3 className="user_name">Michel Simson</h3>
+                <div className="d-flex justify-content-sm-between align-items-center flex-wrap">
+                  <h3 className="user_name me-3">Michel Simson</h3>
 
                   <div className="user_rating">
                     <ul className="list-unstyled">
@@ -212,13 +212,13 @@ function UserReviewList(props) {
 
         <li>
           <div className="list_header">
-            <div className="d-flex">
-              <div className="box user_box">
+            <div className="d-flex flex-wrap flex-sm-nowrap ">
+              <div className="box user_box mb-3 mb-sm-0">
                 <img src={require("../../Static/img/user.png")} alt="user" />
               </div>
               <div className="box user_info_box flex-grow-1">
-                <div className="d-flex justify-content-between align-items-center">
-                  <h3 className="user_name">Michel Simson</h3>
+                <div className="d-flex justify-content-sm-between align-items-center flex-wrap">
+                  <h3 className="user_name me-3">Michel Simson</h3>
 
                   <div className="user_rating">
                     <ul className="list-unstyled">

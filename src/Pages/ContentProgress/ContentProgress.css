@@ -3,6 +3,20 @@
   margin-bottom: 15.1rem;
 }
 
+@media (max-width: 767px) {
+  #ContentProgress {
+    margin-top: 5rem;
+    margin-bottom: 7rem;
+  }
+}
+
+@media (max-width: 400px) {
+  #ContentProgress {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+  }
+}
+
 #ContentProgress .progress_list li {
   margin-bottom: 1.8rem;
 }
@@ -11,8 +25,32 @@
   font-size: 2.4rem;
 }
 
+@media (max-width: 767px) {
+  #ContentProgress .progress_list .progress_box {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 400px) {
+  #ContentProgress .progress_list .progress_box {
+    font-size: 1.4rem;
+  }
+}
+
 #ContentProgress .progress_list .progress_box svg {
   margin-right: 3.4rem;
+}
+
+@media (max-width: 767px) {
+  #ContentProgress .progress_list .progress_box svg {
+    margin-right: 2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  #ContentProgress .progress_list .progress_box svg {
+    margin-right: 1rem;
+  }
 }
 
 #ContentProgress .progress_list .progress_box .progress_name {
@@ -21,11 +59,37 @@
   display: block;
 }
 
+@media (max-width: 767px) {
+  #ContentProgress .progress_list .progress_box .progress_name {
+    min-width: 10rem;
+  }
+}
+
+@media (max-width: 400px) {
+  #ContentProgress .progress_list .progress_box .progress_name {
+    min-width: 8rem;
+  }
+}
+
 #ContentProgress .progress_list .progress_box .progress_bar {
   width: 100%;
   background: var(--text-be);
   height: 2.4rem;
   margin-right: 3.6rem;
+}
+
+@media (max-width: 767px) {
+  #ContentProgress .progress_list .progress_box .progress_bar {
+    height: 1.8rem;
+    margin-right: 2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  #ContentProgress .progress_list .progress_box .progress_bar {
+    height: 1.2rem;
+    margin-right: 1rem;
+  }
 }
 
 #ContentProgress .progress_list .progress_box .progress_bar .total_progress {

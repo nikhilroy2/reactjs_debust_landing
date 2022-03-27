@@ -1,5 +1,4 @@
 #UserReviewList .review_list_wrapper .list_header .user_box {
-  width: 9.2rem;
   height: 9.2rem;
   margin-right: 3.2rem;
 }
@@ -9,8 +8,21 @@
   height: 100%;
 }
 
+@media (max-width: 767px) {
+  #UserReviewList .review_list_wrapper .list_header .user_box {
+    height: 6rem;
+    margin-right: 1.5rem;
+  }
+}
+
 #UserReviewList .review_list_wrapper .list_header .user_info_box .user_name {
   font-size: 3rem;
+}
+
+@media (max-width: 767px) {
+  #UserReviewList .review_list_wrapper .list_header .user_info_box .user_name {
+    font-size: 2rem;
+  }
 }
 
 #UserReviewList .review_list_wrapper .list_header .user_info_box .user_rating {
@@ -23,9 +35,14 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+}
+
+@media (min-width: 576px) {
+  #UserReviewList .review_list_wrapper .list_header .user_info_box .user_rating ul {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
 }
 
 #UserReviewList .review_list_wrapper .list_header .user_info_box .user_rating ul .rating_box {
@@ -45,6 +62,17 @@
   margin-right: 1rem;
 }
 
+@media (max-width: 767px) {
+  #UserReviewList .review_list_wrapper .list_header .user_info_box .user_rating ul .rating_box {
+    width: 3rem;
+    height: 3rem;
+  }
+  #UserReviewList .review_list_wrapper .list_header .user_info_box .user_rating ul .rating_box svg {
+    width: 60%;
+    height: 60%;
+  }
+}
+
 #UserReviewList .review_list_wrapper .list_header .user_info_box .user_rating ul li:last-child .rating_box {
   margin-right: 0px;
 }
@@ -55,18 +83,51 @@
   margin-right: 2.4rem;
 }
 
+@media (max-width: 767px) {
+  #UserReviewList .review_list_wrapper .list_header .user_info_box .review_span {
+    margin-top: 0.5rem;
+  }
+}
+
 #UserReviewList .review_list_wrapper .list_header .user_info_box .review_span svg {
   margin-right: 3rem;
+}
+
+@media (max-width: 767px) {
+  #UserReviewList .review_list_wrapper .list_header .user_info_box .review_span svg {
+    margin-right: 1rem;
+  }
+}
+
+@media (max-width: 767px) {
+  #UserReviewList .review_list_wrapper .list_header .user_info_box .review_span {
+    margin-right: 1rem;
+  }
 }
 
 #UserReviewList .review_list_wrapper .list_header .user_info_box .user_location svg {
   margin-right: 0.9rem;
 }
 
+@media (max-width: 767px) {
+  #UserReviewList .review_list_wrapper .list_header .user_info_box .user_location svg {
+    margin-right: 0.5rem;
+  }
+}
+
 #UserReviewList .review_list_wrapper .list_body .review_title {
   font-size: 3rem;
   padding-top: 5.1rem;
   padding-bottom: 4rem;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  #UserReviewList .review_list_wrapper .list_body .review_title {
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+  }
 }
 
 #UserReviewList .review_list_wrapper .list_body p {
@@ -74,8 +135,21 @@
   padding-bottom: 5.2rem;
 }
 
+@media (max-width: 767px) {
+  #UserReviewList .review_list_wrapper .list_body p {
+    font-size: 1.6rem;
+    padding-bottom: 1.2rem;
+  }
+}
+
 #UserReviewList .review_list_wrapper .list_footer .footer_action {
   padding-bottom: 8.8rem;
+}
+
+@media (max-width: 767px) {
+  #UserReviewList .review_list_wrapper .list_footer .footer_action {
+    padding-bottom: 4rem;
+  }
 }
 
 #UserReviewList .review_list_wrapper .list_footer button {
@@ -86,12 +160,30 @@
   font-size: 2rem;
 }
 
+@media (max-width: 767px) {
+  #UserReviewList .review_list_wrapper .list_footer button {
+    font-size: 1.4rem;
+  }
+}
+
 #UserReviewList .review_list_wrapper .list_footer button svg {
   margin-right: 1rem;
 }
 
+@media (max-width: 767px) {
+  #UserReviewList .review_list_wrapper .list_footer button svg {
+    margin-right: 0.6rem;
+  }
+}
+
 #UserReviewList .load_more_action {
   padding-bottom: 14.1rem;
+}
+
+@media (max-width: 767px) {
+  #UserReviewList .load_more_action {
+    padding-bottom: 4rem;
+  }
 }
 
 #UserReviewList .load_more_action button {
@@ -102,7 +194,19 @@
   font-size: 2rem;
 }
 
+@media (max-width: 767px) {
+  #UserReviewList .load_more_action button {
+    font-size: 1.7rem;
+  }
+}
+
 #UserReviewList .load_more_action button svg {
   margin-right: 1rem;
+}
+
+@media (max-width: 767px) {
+  #UserReviewList .load_more_action button svg {
+    margin-right: .5rem;
+  }
 }
 /*# sourceMappingURL=UserReviewList.css.map */

@@ -419,15 +419,15 @@ const BrowseByCategory = () => {
     <>
       <div className="section_container">
         <div className="section_title">
-          <div className="d-flex justify-content-between align-items-center">
+          <div className="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center">
             <div className="box">
               <h3 className="title">Browse By Category</h3>
               <strong className="subtitle">
                 Explore exclusive collections of NFT projects & Artworks
               </strong>
             </div>
-            <div className="box">
-              <a href="#" className="view_all">
+            <div className="box mt-3 mt-md-0">
+              <a href="#" className="view_all text-nowrap ms-md-2">
                 View All
               </a>
             </div>
